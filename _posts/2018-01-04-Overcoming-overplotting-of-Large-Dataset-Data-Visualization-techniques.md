@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First post!
+title: Overcoming overplotting of Large Dataset: Data Visualization techniques
 image: /img/hello_world.jpeg
 ---
 
