@@ -73,8 +73,7 @@ social-network-links:
   facebook: 
   github: 
   twitter: 
-#  reddit: yourname
-   google-plus: 
+  google-plus: 
 #  xing: yourname
 #  stackoverflow: 
 #  snapchat:
@@ -95,7 +94,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "http://sruti-jain.github.io"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "http://sruti-jain.github.io"  
 
 # --- Web Statistics Section --- #
 
@@ -227,5 +226,3 @@ prose:
 plugins:
   - jekyll-paginate
 
-# Beautiful Jekyll / Dean Attali
-# 2fc73a3a967e97599c9763d05e564189
