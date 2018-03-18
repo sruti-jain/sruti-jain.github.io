@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: My website
+title: Sruti Jain | Cognitive and Data Scientist
 
 # Short description of your site
 description: Sruti Jain | Cognitive and Data Scientist
@@ -69,13 +69,12 @@ author:
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
-  rss: true
   email:
   facebook: 
   github: 
   twitter: 
 #  reddit: yourname
-  google-plus: 
+   google-plus: 
    linkedin: 
 #  xing: yourname
 #  stackoverflow: 
