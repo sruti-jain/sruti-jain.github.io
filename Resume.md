@@ -1,10 +1,11 @@
 ---
 layout: page
-title: Resume
+title: ""
 comments: true
 carbonads: true
 ---
 
+## Resume
 ### Education
 
 #### <span class="fa fa-graduation-cap about-icon"></span>  University of Texas at Dallas  
