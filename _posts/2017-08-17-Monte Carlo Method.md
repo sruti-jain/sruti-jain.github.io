@@ -1,7 +1,7 @@
 ---
 layout: post
-title: First post!
-image: /img/hello_world.jpeg
+title: Monte Carlo Method – Data Analytics
+tags: [Data Science, Monte Carlo Method, Risk Analysis, Statistical Modeling]
 ---
 
 **Monte Carlo Method** is a computational mathematical technique that allows us to interpret all probable outcomes of our decisions allowing better decision making strategies under uncertainty. The essential idea behind this method is using randomness to solve problems that might be deterministic in principle.
@@ -22,16 +22,55 @@ During a Monte Carlo simulation, values are sampled at random from the input pro
 
 **Graphical Results:** Because of the data Monte Carlo simulation generates, it’s easy to create graphs of different outcomes and their chances of occurrence.  This is important for communicating findings to other stakeholders.
 
-**Correlation of Inputs: **In Monte Carlo simulation, it’s possible to model interdependent relationships between input variables.  It’s important for accuracy to represent how, in reality, when some factors go up, others go up or down accordingly.
+**Correlation of Inputs:** In Monte Carlo simulation, it’s possible to model interdependent relationships between input variables.  It’s important for accuracy to represent how, in reality, when some factors go up, others go up or down accordingly.
 
 **Sensitivity Analysis:** With just a few cases, deterministic analysis makes it difficult to see which variables impact the outcome the most.  In Monte Carlo simulation, it’s easy to see which inputs had the biggest effect on bottom-line results.
 
 **Scenario Analysis:** In deterministic models, it’s very difficult to model different combinations of values for different inputs to see the effects of truly different scenarios.  Using Monte Carlo simulation, analysts can see exactly which inputs had which values together when certain outcomes occurred.  This is invaluable for pursuing further analysis.
 
-**Two real time application of Monte Carlo method: **are implemented and the github links to those are as given below:
+**Real time application of Monte Carlo method:** Determining the value of pi
 
-1. Determining the value of pi: *Github Link*
-2. Risk Analysis for stock market: *Github Link*
+```python
+#importing required packages
+from random import random
+import numpy as np
+import matplotlib.pyplot as plt
+%matplotlib inline 
+ 
+#Initializing variables    
+trials = list(np.linspace(10,1000000, 1000))
+pi = []
+
+def mc_multiple_runs(trials, hits = 0): 
+    for i in range(int(trials)):
+        x, y = random() , random()  # generate random x,y in (0,1) at each run 
+
+        if x**2 + y**2 < 1 :  # defines the edge of the quadrant
+            hits = hits + 1
+    return float(hits)
+
+for i in trials:
+    pi.append(4*(mc_multiple_runs(i)/i)) 
+```
+```python
+# plot graphs for the value of pi determined at each trial. 
+plt.figure()
+plt.plot(trials, pi, '-')
+plt.title('Estimating the value of pi via Monte Carlo')
+plt.xlabel('# of Trials')
+plt.ylabel('Estimated value of pi')
+plt.ylim(3.11,3.17)
+plt.show()
+
+plt.hist(pi, bins = np.linspace(3.12,3.16,50), color='green')
+plt.title('Estimating the value of pi via Monte Carlo')
+plt.xlabel('Estimated value of pi')
+plt.ylabel('Trials')
+plt.xlim(3.13,3.15)
+plt.show()
+```
+
+![png](/img/MonteCarloPi.png)
 
 **References and further reading**:
 
