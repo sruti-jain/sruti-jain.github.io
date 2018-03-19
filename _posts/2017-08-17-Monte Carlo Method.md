@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Monte Carlo Method – Data Analytics
+title: Monte Carlo Method
+subtitle: Data Analytics
 tags: [Data Science, Monte Carlo Method, Risk Analysis, Statistical Modeling]
 ---
 
