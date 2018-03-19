@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  Sruti Jain
+title:  ""
 subtitle: Cognitive Data Scientist
 ---
 
