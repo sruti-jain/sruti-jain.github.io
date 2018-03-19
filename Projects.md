@@ -8,7 +8,7 @@ carbonads: true
 
 ## A few notable projects
   
-- **[Shiny App - Data Exploration & Analysis](https://srutijain.shinyapps.io/explodata/)** - The aim of the project is to provide the users an interface for data upload & exploration, statistical analysis
+- **[Shiny App - Data Exploration & Analysis](https://srutijain.shinyapps.io/explodata/)** - The aim of the project is to provide the users an interface for data upload, data exploration, statistical analysis including machine learning algorithms to easily find new insights in their data.   
   Check out the [App](https://srutijain.shinyapps.io/explodata/).   
 
 - **[Study Of Airbnb Data](https://public.tableau.com/profile/sruti.jain#!/vizhome/Airbnb_27/TopAirbnbPerformers)** - The aim of the project is to optimize the price of new house listing by analysing other people's pricing data in surrounding areas, relative to features such as locations, amenities, reviews, etc.   
@@ -35,7 +35,7 @@ carbonads: true
   Check out a [report online](https://www.slideshare.net/SrutiJain/memory-behavior-analysis-91109879).  
   Available [on GitHub](https://www.slideshare.net/SrutiJain/memory-behavior-analysis-91109879).  
   
-- **[Stock Market - Risk Analysis & Prediction](https://www.slideshare.net/SrutiJain/stock-market-analysis-77791380)** - The aim of the project is to determine forecasting techniques to determine future stock prices using time series analysis & determining the maximum risk involved using Monte Carlo techniques.
+- **[Stock Market - Risk Analysis & Prediction](https://www.slideshare.net/SrutiJain/stock-market-analysis-77791380)** - The aim of the project is to determine forecasting techniques to determine future stock prices using time series analysis & determining the maximum risk involved using Monte Carlo techniques.   
   Check out a [report online](https://www.slideshare.net/SrutiJain/stock-market-analysis-77791380).  
   Available [on GitHub](https://github.com/sruti-jain/Stock-Market-Analysis---Web-mining---Risk-Analysis-Future-Prediction).
 
