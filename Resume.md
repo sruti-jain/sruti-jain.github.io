@@ -61,7 +61,7 @@ Bachelor of Technology in Electronics & Communication Engineering, GPA 3.80/4.0
 - Developed automation tool in TACL and C for Electronic Funds Transfer (EFT) that reduced the testing eﬀort by 50%.
 
 
-#### <span class="fa fa-briefcase about-icon"></span>  Emerson - Research & Development Intern          (Mumbai, India)   Jan 2012 - Apr2012
+#### <span class="fa fa-briefcase about-icon"></span>  Emerson - Research & Development Intern          (Mumbai, India)   Jan 2012 - Apr 2012
 
 -  Formulated and implemented Data visualization charts for forecasting and inventory management using SAS 9.0 and SQL.
 -  Designed a device that reported readings of individual phase current and voltages of any circuit using micro-controllers and Java program. 
