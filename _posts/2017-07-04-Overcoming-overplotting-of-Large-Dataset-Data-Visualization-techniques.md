@@ -42,7 +42,7 @@ hv.Scatter3D(hmap.table(), kdims=['x','y','level'], vdims=['c'])
 
 The following plotting techniques discussed can thus be use to overcome overplotting of Large Scale Data.
 
-1. **Data Shadowing and Data Shader**
+- **Data Shadowing and Data Shader**
 
 Plotting millions of data point on a Scatter plot directly is not possible with occlusion, therefore we can use the techniques of Data shadowing and shading for plotting large scale data interactively. Data shading automatically reveals valuable details about the data like outliers and missing data.
 
@@ -53,7 +53,7 @@ blues + reds + reds*blues + blues*reds
 ```
 ![png](/img/Overplotting3.png)
 
-2. **Annotated heatmaps & interactive plots**
+- **Annotated heatmaps & interactive plots**
 
 A heatmap is a pictorial representation of data where individual points are contained in a matrix that is represented as colors. A simple heat map provides an immediate visual summary of information. More elaborate heat maps allow the viewer to understand complex data sets. The methods discussed until now can be used for Explanatory visualizations for telling data stories to indicate key findings. But at times, we want the user to interactively explore the data, to unearth their own understanding. In that case, we need to build Exploratory visualizations. These visualizations also play an important role to indicate the variation of one attribute with respect to another and therefore are powerful visualization tools especially in case of large datasets.
 
@@ -71,7 +71,7 @@ sns.heatmap(flights, annot=True, fmt="d", linewidths=1)
 ```
 ![png](/img/Overplotting4.png)
 
-3. **2D Density graphs**
+- **2D Density graphs**
 A 2D density plot  or  2D histogram is an extension of the well known histogram. It shows the distribution of values in a data set across the range of two quantitative variables. It is really useful to avoid over plotting in a scatterplot.
 
 ```python
@@ -88,7 +88,7 @@ plt.title('Overplotting? Try 2D density graph', loc='left')
 
 ![png](/img/Overplotting5.png)
 
-4. **2D density & Marginal Distribution**
+- **2D density & Marginal Distribution**
 If you have a huge amount of dots on your graphic, it is advised to represent the marginal distribution of both the X and Y variables on your 2D Density plot. This is easy to do using the jointplot() function of the Seaborn library.
 
 ```python
