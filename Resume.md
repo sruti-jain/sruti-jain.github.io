@@ -7,7 +7,7 @@ carbonads: true
 
 ### Education
 
-#### <span class="<span class="fa fa-graduation-cap about-icon"></span>  University of Texas at Dallas  
+#### <span class="fa fa-graduation-cap about-icon"></span>  University of Texas at Dallas  
 
 Master of Science in Applied Cognition & Neuroscience, GPA 3.93/4.0   
 **Specialization**: Data Science / Computational Modeling, Anticipated May 2018
