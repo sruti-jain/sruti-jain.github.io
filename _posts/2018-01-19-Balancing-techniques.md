@@ -31,6 +31,5 @@ In this post, I am writing Undersampling and Oversampling methods that can be im
 
 The IPython Notebook implementation of the above methods can be found on Github Link.
 
-To learn more about the Imbalance Learn API in **Python** that I used to implement the methods please refer to the [documentation](http://contrib.scikit-learn.org/imbalanced-learn/api.html)
-
-For **R implementation** of above methods refer to [Package ‘unbalanced’](https://cran.r-project.org/web/packages/unbalanced/unbalanced.pdf)
+For more documentation of above methods in **Python** refer to [Package ‘imblearn’](http://contrib.scikit-learn.org/imbalanced-learn/api.html)   
+For more documentation of above methods in **R** refer to [Package ‘unbalanced’](https://cran.r-project.org/web/packages/unbalanced/unbalanced.pdf)
