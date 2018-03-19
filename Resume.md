@@ -37,8 +37,7 @@ Bachelor of Technology in Electronics & Communication Engineering, GPA 3.80/4.0
 ### Experience
 
 
-#### <span class="fa fa-briefcase about-icon"></span>  University of Texas at Dallas - Graduate Research Assistant
-(Dallas, TX)   Oct 2017 - Present  
+#### <span class="fa fa-briefcase about-icon"></span>  University of Texas at Dallas - Graduate Research Assistant          (Dallas, TX)   Oct 2017 - Present  
 
 Working on a project sponsored by DARPA to develop a Data Science tool (Data Driven discovery of models) to automate model discovery process for quantitative analysis mainly using d3.js, R, Python.  
 **Roles & Responsibilities:** 
@@ -48,8 +47,7 @@ Working on a project sponsored by DARPA to develop a Data Science tool (Data Dri
 - Developed the front-end UI using JavaScript, D3.js, jQuery, JSON, Mithril. 
 
 
-#### <span class="fa fa-briefcase about-icon"></span>  University of Texas at Dallas - Graduate Intern
-(Dallas, TX)   Jan 2018 - Present
+#### <span class="fa fa-briefcase about-icon"></span>  University of Texas at Dallas - Graduate Intern          (Dallas, TX)   Jan 2018 - Present
 
 Working on a project funded by NSF for enhancing the student experience in Online Learning systems through educational data mining & learning analytics under the guidance of Dr. Richard Golden.  
 **Roles & Responsibilities:**
@@ -58,8 +56,7 @@ Working on a project funded by NSF for enhancing the student experience in Onlin
 - Design & evaluate hypothesis, preprocess data and variable selection, handling exceptions & assumption, develop models using machine learning in Python & Tensorflow.  
 
 
-#### <span class="fa fa-briefcase about-icon"></span>  Accenture - Software Engineering Analyst 
-(Bengaluru, India)   Mar 2013 - July 2016  
+#### <span class="fa fa-briefcase about-icon"></span>  Accenture - Software Engineering Analyst          (Bengaluru, India)   Mar 2013 - July 2016  
 **Project**: Transaction Processing and Authorization (First Data)  
 **Industry**: Financial services:Banking & Payments  
 **Critical Projects**: ApplePay & Tokenization, Fraud Detection, Clover, EMV Release and Enhancement, Quasi Cash support Project, Pinned Authentication Visa Debit.  
@@ -75,8 +72,9 @@ Working on a project funded by NSF for enhancing the student experience in Onlin
 - Developed automation tool in TACL and C for Electronic Funds Transfer (EFT) that reduced the testing eﬀort by 50%.
 
 
-#### <span class="fa fa-briefcase about-icon"></span>  Emerson - Research & Development Intern
-(Mumbai, India)   Jan 2012 - Apr2012
+#### <span class="fa fa-briefcase about-icon"></span>  Emerson - Research & Development Intern          (Mumbai, India)   Jan 2012 - Apr2012
+
+Roles & Responsibilities:
 
 -  Formulated and implemented Data visualization charts for forecasting and inventory management using SAS 9.0 and SQL.
 -  Designed a device that reported readings of individual phase current and voltages of any circuit using micro-controllers and Java program. 
