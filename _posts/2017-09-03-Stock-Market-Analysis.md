@@ -1,6 +1,8 @@
 
 **Data Project - Stock Market Analysis - Web mining - Risk Analysis Monte Carlo**
 
+We have already learnt about Monte Carlo method in the previous post - [Monte Carlo](https://sruti-jain.github.io/2017-08-17-Monte-Carlo-Method/).
+In this post I am going to discuss on how can that method be used for determining the maximum risk involved in investing to a stock. 
 
 ```python
 #import libraries
@@ -20,7 +22,6 @@ from datetime import datetime
 from __future__ import division
 ```
 
-
 ```python
 import pandas_datareader.data as web
 tech_list = ['AAPL','GOOG','MSFT','AMZN']
@@ -31,7 +32,6 @@ start = datetime(end.year - 1,end.month,end.day)
 
 for stock in tech_list:   
     globals()[stock] = web.DataReader(stock,'yahoo',start,end)    
-
 ```
 
 
@@ -39,9 +39,6 @@ for stock in tech_list:
 #Descriptive & Exploratory analysis
 AAPL.describe()
 ```
-
-
-
 
 <div>
 <table border="1" class="dataframe">
@@ -133,40 +130,10 @@ AAPL.describe()
 </table>
 </div>
 
-
-
-
-```python
-#DataFrame Structure
-AAPL.info()
-```
-
-    <class 'pandas.core.frame.DataFrame'>
-    DatetimeIndex: 252 entries, 2016-05-05 to 2017-05-04
-    Data columns (total 6 columns):
-    Open         252 non-null float64
-    High         252 non-null float64
-    Low          252 non-null float64
-    Close        252 non-null float64
-    Volume       252 non-null int64
-    Adj Close    252 non-null float64
-    dtypes: float64(5), int64(1)
-    memory usage: 13.8 KB
-    
-
-
 ```python
 # Let's see historical view of the closing price for the last one year
 AAPL['Adj Close'].plot(legend=True,figsize=(10,4))
 ```
-
-
-
-
-    <matplotlib.axes._subplots.AxesSubplot at 0x24cfbd1bf28>
-
-
-
 
 ![png](output_5_1.png)
 
@@ -177,16 +144,7 @@ AAPL['Adj Close'].plot(legend=True,figsize=(10,4))
 AAPL['Volume'].plot(legend=True,figsize=(10,4))
 ```
 
-
-
-
-    <matplotlib.axes._subplots.AxesSubplot at 0x24cfbb89dd8>
-
-
-
-
 ![png](output_6_1.png)
-
 
 
 ```python
@@ -199,22 +157,6 @@ for ma in moving_avg_day:
     
 AAPL[['Adj Close','MA for 10 days','MA for 20 days','MA for 50 days']].plot(subplots=False,figsize=(15,6))
 ```
-
-    C:\Users\saj16\Anaconda3\lib\site-packages\ipykernel\__main__.py:6: FutureWarning: pd.rolling_mean is deprecated for Series and will be removed in a future version, replace with 
-    	Series.rolling(window=10,center=False).mean()
-    C:\Users\saj16\Anaconda3\lib\site-packages\ipykernel\__main__.py:6: FutureWarning: pd.rolling_mean is deprecated for Series and will be removed in a future version, replace with 
-    	Series.rolling(window=20,center=False).mean()
-    C:\Users\saj16\Anaconda3\lib\site-packages\ipykernel\__main__.py:6: FutureWarning: pd.rolling_mean is deprecated for Series and will be removed in a future version, replace with 
-    	Series.rolling(window=50,center=False).mean()
-    
-
-
-
-
-    <matplotlib.axes._subplots.AxesSubplot at 0x24cfc189a20>
-
-
-
 
 ![png](output_7_2.png)
 
@@ -230,38 +172,13 @@ AAPL['Daily Return'].plot(figsize=(12,4),legend=True,linestyle='--',marker='o')
 
 ```
 
-
-
-
-    <matplotlib.axes._subplots.AxesSubplot at 0x24cfc26c860>
-
-
-
-
-![png](output_8_1.png)
-
-
-
 ```python
 #Average daily return
 #Using dropna to eliminate NaN values
 sns.distplot(AAPL['Daily Return'].dropna(),bins=100,color='red')
 ```
 
-    C:\Users\saj16\Anaconda3\lib\site-packages\statsmodels\nonparametric\kdetools.py:20: VisibleDeprecationWarning: using a non-integer number instead of an integer will result in an error in the future
-      y = X[:m/2+1] + np.r_[0,X[m/2+1:],0]*1j
-    
-
-
-
-
-    <matplotlib.axes._subplots.AxesSubplot at 0x24cfbe112b0>
-
-
-
-
 ![png](output_9_2.png)
-
 
 
 ```python
@@ -276,9 +193,6 @@ closing_df = web.DataReader(['AAPL','GOOG','MSFT','AMZN'],'yahoo',start,end)['Ad
 # Let's take a quick look
 closing_df.head()
 ```
-
-
-
 
 <div>
 <table border="1" class="dataframe">
