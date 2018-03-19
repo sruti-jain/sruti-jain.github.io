@@ -8,7 +8,7 @@ carbonads: true
 
 - **[Study Of Airbnb Data](https://public.tableau.com/profile/sruti.jain#!/vizhome/Airbnb_27/TopAirbnbPerformers)** - The aim of the project is to optimize the price of new house listing by analysing other people's pricing data in surrounding areas, relative to features such as locations, amenities, reviews, etc.   
 Tags: Python, Tableau, Web scraping, Data Cleaning, Data Visualization, Data Analysis  
-Check out a [demo online] (https://public.tableau.com/profile/sruti.jain#!/vizhome/Airbnb_27/TopAirbnbPerformers).   
+Check out a [demo online](https://public.tableau.com/profile/sruti.jain#!/vizhome/Airbnb_27/TopAirbnbPerformers).   
 Available [on GitHub](https://github.com/sruti-jain/Airbnb-Data-Analysis-Project).
 
 
