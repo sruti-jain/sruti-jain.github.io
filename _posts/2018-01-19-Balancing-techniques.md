@@ -21,15 +21,16 @@ In this post, I am writing Undersampling and Oversampling methods that can be im
 
 **Oversampling Methods**: Replicates the observations from minority class to balance the data. The various methods of oversampling implemented in this notebook includes:
 - RandomOverSampler: Randomly over-samples the minority class with replacement.
-SMOTE- Synthetic Minority Over-sampling Technique: It works by creating synthetic samples from the minor class instead of creating copies.
-bSMOTE- Borderline SMOTE: Minority samples near the borderline are over-sampled.
-SVM_SMOTE- Support Vectors SMOTE: The SVM smote model fits a support vector machine classifier to the data and uses the support vector to provide a notion of boundary. Unlike regular smote, where such notion relies on proportion of nearest neighbours belonging to each class.
-SMOTE + Tomek links (Combines Over-sampling followed by under-sampling): Performs over-sampling using SMOTE and cleaning using Tomek links.
-SMOTE + ENN (Combines Over-sampling followed by under-sampling): Performs over-sampling using SMOTE and cleaning using Edited Nearest Neighbours (ENN).
-EasyEnsemble: Create an ensemble of balanced sets by iteratively under-sampling the imbalanced dataset using an estimator.
-BalanceCascade: BalanceCascade is similar to EasyEnsemble except that it removes correctly classified major class examples of trained learners from further consideration.
+- SMOTE- Synthetic Minority Over-sampling Technique: It works by creating synthetic samples from the minor class instead of creating copies.
+- bSMOTE- Borderline SMOTE: Minority samples near the borderline are over-sampled.
+- SVM_SMOTE- Support Vectors SMOTE: The SVM smote model fits a support vector machine classifier to the data and uses the support vector to provide a notion of boundary. Unlike regular smote, where such notion relies on proportion of nearest neighbours belonging to each class.
+- SMOTE + Tomek links (Combines Over-sampling followed by under-sampling): Performs over-sampling using SMOTE and cleaning using Tomek links.
+- SMOTE + ENN (Combines Over-sampling followed by under-sampling): Performs over-sampling using SMOTE and cleaning using Edited Nearest Neighbours (ENN).
+- EasyEnsemble: Create an ensemble of balanced sets by iteratively under-sampling the imbalanced dataset using an estimator.
+- BalanceCascade: BalanceCascade is similar to EasyEnsemble except that it removes correctly classified major class examples of trained learners from further consideration.
+
 The IPython Notebook implementation of the above methods can be found on Github Link.
 
-To learn more about the Imbalance Learn API in Python that I used to implement the methods please refer to the documentation: http://contrib.scikit-learn.org/imbalanced-learn/api.html
+To learn more about the Imbalance Learn API in **Python** that I used to implement the methods please refer to the [documentation](http://contrib.scikit-learn.org/imbalanced-learn/api.html)
 
-For R implementation of above methods refer to Package ‘unbalanced’: https://cran.r-project.org/web/packages/unbalanced/unbalanced.pdf
+For **R implementation** of above methods refer to [Package ‘unbalanced’](https://cran.r-project.org/web/packages/unbalanced/unbalanced.pdf)
