@@ -1,7 +1,7 @@
-
 ---
 layout: post
-title: Overcoming overplotting of Large Dataset- Data Visualization techniques
+title: Overcoming overplotting of Large Dataset
+subtitle: Data Visualization techniques
 tags: [Data Science, Bokeh, Data Shading, Data Visualization, Heatmaps, Holoviews, InteractiveMaps, Python]
 ---
 
