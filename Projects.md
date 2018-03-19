@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projects
+title: 
 subtitle: 
 comments: true
 carbonads: true
