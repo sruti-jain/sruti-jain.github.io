@@ -6,9 +6,9 @@ comments: true
 carbonads: true
 ---
 
-<b> A few notable projects</b>
+## A few notable projects
   
-- **[Shiny App - Data Exploration & Analysis](https://srutijain.shinyapps.io/explodata/)** - The aim of the project is to optimize the price of new house listing by analysing other people's pricing data in surrounding areas, relative to features such as locations, amenities, reviews, etc.   
+- **[Shiny App - Data Exploration & Analysis](https://srutijain.shinyapps.io/explodata/)** - The aim of the project is to provide the users an interface for data upload & exploration, statistical analysis
   Check out the [App](https://srutijain.shinyapps.io/explodata/).   
 
 - **[Study Of Airbnb Data](https://public.tableau.com/profile/sruti.jain#!/vizhome/Airbnb_27/TopAirbnbPerformers)** - The aim of the project is to optimize the price of new house listing by analysing other people's pricing data in surrounding areas, relative to features such as locations, amenities, reviews, etc.   
