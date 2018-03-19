@@ -1,19 +1,23 @@
+---
 layout: page
 title: Projects
 subtitle: 
 comments: true
 carbonads: true
+---
+
+- **[Study Of Airbnb Data](https://public.tableau.com/profile/sruti.jain#!/vizhome/Airbnb_27/TopAirbnbPerformers)** - The aim of the project is to optimize the price of new house listing by analysing other people's pricing data in surrounding areas, relative to features such as locations, amenities, reviews, etc.   
+Tags: Python, Tableau, Web scraping, Data Cleaning, Data Visualization, Data Analysis  
+Check out a [demo online] (https://public.tableau.com/profile/sruti.jain#!/vizhome/Airbnb_27/TopAirbnbPerformers).   
+Available [on GitHub](https://github.com/sruti-jain/Airbnb-Data-Analysis-Project).
 
 
-- Study Of Airbnb Data - The aim of the project is to optimize the price of new house listing by analysing other people's pricing data in surrounding areas, relative to features such as locations, amenities, reviews, etc.   
-  Tags: Python, Tableau, Web scraping, Data Cleaning, Data Visualization, Data Analysis  
-  Check out a [demo online] (https://public.tableau.com/profile/sruti.jain#!/vizhome/Airbnb_27/TopAirbnbPerformers).   
-  Available on GitHub.
+- **[Predicting House Prices - Regression Problem](https://www.slideshare.net/SrutiJain/predicting-house-pricesregression)** - Determining the housing prices of California properties for new sellers and also for buyers to estimate the profitability of the deal.  Check out a [demo online](https://www.slideshare.net/SrutiJain/predicting-house-pricesregression). 
+Available [on GitHub](https://github.com/sruti-jain/Predicting-House-Prices---Regression).
 
-- Predicting House Prices - Regression Problem - Determining the housing prices of California properties for new sellers and also for buyers to estimate the profitability of the deal.  Check out a demo online. 
-  Available on GitHub.
 
-- INTERACTIVE VISUALIZATION & CHART USING D3 - My goal of this visualization was to show how, most of the world's population has seen an increase in body size with an increase in food supply, and show how this compares to how "rich" a country is.  Check out a demo online. Available on GitHub.
+- **[INTERACTIVE VISUALIZATION & CHART USING D3](http://srutisj.in/Interactive%20Visualization%20&%20Analysis%20Chart%20using%20D3/InteractiveVisualization.html)** - My goal of this visualization was to show how, most of the world's population has seen an increase in body size with an increase in food supply, and show how this compares to how "rich" a country is.  Check out a [demo online](http://srutisj.in/Interactive%20Visualization%20&%20Analysis%20Chart%20using%20D3/InteractiveVisualization.html). Available [on GitHub](https://github.com/sruti-jain/Interactive-Visualization-Analysis-Chart-using-D3).
+
 - Airbnb Data Analysis & Price Prediction (Python, Tableau, Web scraping, Data Cleaning, Data Visualization, Data Analysis)                                                                                                                               
   - Built an application to scrape Airbnb website, pre-processed & extracted attributes, built Interactive Dashboards to convey data story about top performers, review vs price analysis & predicting future rent value by exploring neighborhood with respect to amenities, price & location.
 - Marketing Analysis for Hotel Chain Website (R, HTML Reporting, CSS, Data Cleaning, Factor Analysis, Google Analytics, Final Proposal)                                                                                                             
@@ -29,6 +33,5 @@ carbonads: true
 - Sales Data Analysis Model (Microsoft Excel Reporting, Pivot Tables & Charts, VLOOKUP & HLOOKUP, Adhoc Data Analysis)
   - Designed an Excel reporting Model using Pivot Tables and Charts to analyze the Sales Data of a company for last one year with respect to postal code, discount strategy and product listing.
 
+
 This is a collection of some personal projects I've worked on that are easily viewable online. Anything that is not browser-friendly will not make the cut :(
-
-
