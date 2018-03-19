@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projects
+title:
 subtitle: 
 comments: true
 carbonads: true
@@ -44,12 +44,9 @@ carbonads: true
   Available [on GitHub](https://github.com/sruti-jain/ABTesting_SignificanceTesting).  
 
 ## Other Projects: 
-- **[Sales Data Analysis Model](https://github.com/sruti-jain/Sales-Data-Analysis-Excel)**
-- **[Football data acquisition & storage](https://github.com/sruti-jain/Football-Data-Analysis---Python-SQLite)**
-- **[Kaggle Competitions Code](https://github.com/sruti-jain/KaggleCompetition)**
-- **[Multiple project tracking template](https://github.com/sruti-jain/Project-Management-Template)**
-- **[SPSS - Quantitative & Qualitative Analysis](https://github.com/sruti-jain/Research-Methods---SPSS-Qualitative-Quantitative-Analysis-Projects)**
-- **[Machine learning Repository](https://github.com/sruti-jain/Machine-Learning---Matlab)**
-
-
-This is a collection of some personal projects I've worked on that are easily viewable online. To view more stuff visit my Github. 
+- [Sales Data Analysis Model](https://github.com/sruti-jain/Sales-Data-Analysis-Excel)
+- [Football data acquisition & storage](https://github.com/sruti-jain/Football-Data-Analysis---Python-SQLite)
+- [Kaggle Competitions Code](https://github.com/sruti-jain/KaggleCompetition)
+- [Multiple project tracking template](https://github.com/sruti-jain/Project-Management-Template)
+- [SPSS - Quantitative & Qualitative Analysis](https://github.com/sruti-jain/Research-Methods---SPSS-Qualitative-Quantitative-Analysis-Projects)
+- [Machine learning Repository](https://github.com/sruti-jain/Machine-Learning---Matlab)
