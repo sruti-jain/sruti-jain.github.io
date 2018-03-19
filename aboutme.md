@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  Sruti Jain
-subtitle: Summary
+subtitle: Cognitive Data Scientist
 ---
 
 <div style="text-align: justify"> 
