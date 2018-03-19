@@ -1,6 +1,6 @@
 ---
 layout: page
-title:
+title: ""
 subtitle: 
 comments: true
 carbonads: true
