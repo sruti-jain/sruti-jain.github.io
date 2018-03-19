@@ -6,7 +6,7 @@ subtitle: Cognitive Data Scientist
 
 <p>Some Markdown text with <span style="color:blue">some <em>blue</em> text</span>.</p>
 
-<div style="text-align: justify> 
+<div style="text-align: justify"> 
 Hello! My name is Sruti and I am a Graduate Research Assistant at The University of Texas at Dallas pursuing MS in Cognitive Science specializing in Computational modeling / Data Science. My expertise include Multivariate Data Analysis, Data Visualization, Business Intelligence, Machine Learning and organizational behavior(Psychology). I'm passionate about using data to tell a story and gain counter-intuitive insights. </div>  
 
 <div style="text-align: justify"> 
