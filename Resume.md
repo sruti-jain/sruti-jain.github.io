@@ -1,17 +1,18 @@
 ---
 layout: page
 title: Resume
-subtitle: What's been eating away my free time
 comments: true
 carbonads: true
 ---
 
 **EDUCATION**
-**University of Texas at Dallas** 														**GPA 3.89/4.0**
-Master of Science in Data Science / Computational Modeling 						Anticipated May 2018
+
+<span class="fa fa-briefcase about-icon"></span>**University of Texas at Dallas** 														**GPA 3.89/4.0**
+<span class="fa fa-briefcase about-icon"></span>Master of Science in Data Science / Computational Modeling 						Anticipated May 2018
 
 **Shreemati Nathibai Damodar Thackersey Women's University, India** 				**GPA 3.80/4.0**
 Bachelor of Technology in Electronics & Communication Engineering 						       July 2012
+
 
 **TECHNICAL SKILLS & CERTIFICATIONS**
 
