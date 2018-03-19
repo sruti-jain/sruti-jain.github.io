@@ -1,12 +1,13 @@
 
 **Sampling Techniques for imbalanced Dataset:**
 
-Data Sampling in data science is an important aspect for any statistical analysis project which is used to select, manipulate and analyze a representative subset of data points called samples in order to identify patterns and trends in the larger data set usually termed as population being examined. Lets say we are conducting a survey in the United States, and we collected data from 1000 samples. The information from these samples can then be used to infer details about the entire population of the United States. The essential point to be noted here is that these sample points should in turn be very close to the population we are examining. 
+**Data Sampling** in data science is an important aspect for any statistical analysis project which is used to select, manipulate and analyze a representative subset of data points called samples in order to identify patterns and trends in the larger data set usually termed as population being examined. Lets say we are conducting a survey in the United States, and we collected data from 1000 samples. The information from these samples can then be used to infer details about the entire population of the United States. The essential point to be noted here is that these sample points should in turn be very close to the population we are examining. If the data is normally distributed, then the samples can be randomly chosen. However if we are dealing with unbalanced dataset where number of instances of one class predominates the other, then we must use balancing strategies for selecting random samples to avoid majority class bias.
 
-I have already written a blog post indicating the use of stratified sampling - Undersampling and Oversampling and their use, link is http://www.srutisj.in/blog/research/data-splitting-in-machine-learning-for-high-variance-dataset/. 
+I have already written a blog post indicating the use of stratified sampling – Undersampling and Oversampling and their use, link is [Data Splitting in machine learning for high variance dataset](http://www.srutisj.in/blog/research/data-splitting-in-machine-learning-for-high-variance-dataset/).
 
-We shall in this notebook implement some practical methods that are available to tackle the problem of imbalanced dataset or dataset with high variability. 
+In this post, I am writing Undersampling and Oversampling methods that can be implemented to overcome the problem that exist with unbalanced dataset. Depending on the data science problem, one can decide which method to implement. 
 
+Below is the code snippet for importing the required libraries in Python and generating an imbalanced dataset for our analysis. 
 
 ```python
 # Importing Packages 
@@ -115,11 +116,6 @@ ossx_vis = pca.transform(ossx)
 ncrx_vis = pca.transform(ncrx)
 ```
 
-    C:\Users\saj16\Anaconda3\lib\site-packages\imblearn\under_sampling\nearmiss.py:209: UserWarning: The number of the samples to be selected is larger than the number of samples available. The balancing ratio cannot be ensure and all samples will be returned.
-      warnings.warn('The number of the samples to be selected is larger'
-    
-
-
 ```python
 # Plotting the new dataset after under-sampling
 palette = sns.color_palette()
@@ -176,7 +172,7 @@ plt.show()
 ```
 
 
-![png](output_5_0.png)
+![png](img/output_5_0.png)
 
 
 **Oversampling Methods**: Replicates the observations from minority class to balance the data. The various methods of oversampling implemented in this notebook includes:
@@ -305,10 +301,10 @@ axes[2, 2].set_title('Balance-Cascade', fontsize=fs)
 plt.show()
 ```
 
+![png](img/output_8_0.png)
 
-![png](output_8_0.png)
 
+The IPython Notebook implementation of the above methods can be found on **[Github Link](https://github.com/sruti-jain/Statistical_Techniques/blob/master/Balancing%20techniques%20for%20unbalanced%20datasets.ipynb)
 
-Imbalance Learn API documentation: http://contrib.scikit-learn.org/imbalanced-learn/api.html
-
-For R implementation of above methods refer to Package ‘unbalanced’: https://cran.r-project.org/web/packages/unbalanced/unbalanced.pdf
+For more documentation of above methods in **Python** refer to [Package ‘imblearn’](http://contrib.scikit-learn.org/imbalanced-learn/api.html)   
+For more documentation of above methods in **R** refer to [Package ‘unbalanced’](https://cran.r-project.org/web/packages/unbalanced/unbalanced.pdf)
