@@ -6,8 +6,8 @@ comments: true
 carbonads: true
 ---
 
-## A few notable projects: 
-
+<b> A few notable projects</b>
+  
 - **[Shiny App - Data Exploration & Analysis](https://srutijain.shinyapps.io/explodata/)** - The aim of the project is to optimize the price of new house listing by analysing other people's pricing data in surrounding areas, relative to features such as locations, amenities, reviews, etc.   
   Check out the [App](https://srutijain.shinyapps.io/explodata/).   
 
