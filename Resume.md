@@ -36,29 +36,29 @@ Bachelor of Technology in Electronics & Communication Engineering, GPA 3.80/4.0
 
 ### Experience
 
-#### <span class="fa fa-briefcase about-icon"></span>University of Texas at Dallas - Graduate Research Assistant  
+#### <span class="fa fa-briefcase about-icon"></span>University of Texas at Dallas - Graduate Research Assistant
 (Dallas, TX)   Oct 2017 - Present  
 
-Working on a project sponsored by DARPA to develop a Data Science tool (Data Driven discovery of models) to automate model discovery process for quantitative analysis mainly using d3.js, R, Python.  
+Working on a project sponsored by DARPA to develop a Data Science tool (Data Driven discovery of models) to automate model discovery process for quantitative analysis mainly using d3.js, R, Python. 
 **Roles & Responsibilities:**  
 - Research, design & development of DARPA funded project TwoRavens, (http://2ra.vn), a system of interlocking statistical tools for data exploration, analysis and meta-analysis, under the supervision of Dr. Vito D'Orazio (Prof. at the University of Texas at Dallas).  
 - Used R and Python to apply several machine learning algorithms (Clustering, Regression, Time Series & Classification) on the data to be represented to the user.  
 - Developed the front-end UI using JavaScript, D3.js, jQuery, JSON, Mithril. 
 
-#### <span class="fa fa-briefcase about-icon"></span>University of Texas at Dallas - Graduate Intern  
+#### <span class="fa fa-briefcase about-icon"></span>University of Texas at Dallas - Graduate Intern 
 (Dallas, TX)   Jan 2018 - Present
 
 Working on a project funded by NSF for enhancing the student experience in Online Learning systems through educational data mining & learning analytics under the guidance of Dr. Richard Golden.  
-**Roles & Responsibilities:**  
+**Roles & Responsibilities:** 
 - Responsible for designing useful surveys & formulating hypothesis.  
 - Design & evaluate hypothesis, preprocess data and variable selection, handling exceptions & assumption, develop models using machine learning in Python & Tensorflow.  
 
-#### <span class="fa fa-briefcase about-icon"></span>Software Engineering Analyst at Accenture  
+#### <span class="fa fa-briefcase about-icon"></span>Software Engineering Analyst at Accenture 
 (Bengaluru, India)   Mar 2013 - July 2016  
 **Project**: Transaction Processing and Authorization (First Data)  
 **Industry**: Financial services:Banking & Payments  
 **Critical Projects**: ApplePay & Tokenization, Fraud Detection, Clover, EMV Release and Enhancement, Quasi Cash support Project, Pinned Authentication Visa Debit.  
-**Roles & Responsibilities**:  
+**Roles & Responsibilities**: 
 - Worked in cross-functional teams including strategic planning & analysis, new business development, testing, and status reporting.
 - Optimized data collection procedures and conducted data exploration, quantitative research and data mining to uncover financial crime patterns.
 - Implemented machine learning models to identify the risk of payment transactions thereby improving the F1 Score from 0.62 to 0.94 for predicting fraudulent transactions.  
@@ -68,7 +68,7 @@ Working on a project funded by NSF for enhancing the student experience in Onlin
 - Recommended functional approaches to address business requirements through use case models, workflow diagrams, data models, architectural process diagram for projects - ApplePay, Tokenization, EMV, Clover. 
 - Developed automation tool in TACL and C for Electronic Funds Transfer (EFT) that reduced the testing eﬀort by 50%.
 
-#### <span class="fa fa-briefcase about-icon"></span>Research & Development Intern at Emerson - Embedded Systems 
-(Mumbai, India)   Jan 2012 - Apr2012  
+#### <span class="fa fa-briefcase about-icon"></span>Research & Development Intern at Emerson - Embedded Systems
+(Mumbai, India)   Jan 2012 - Apr2012 
 -  Formulated and implemented Data visualization charts for forecasting and inventory management using SAS 9.0 and SQL.
 -  Designed a device that reported readings of individual phase current and voltages of any circuit using micro-controllers and Java program. 
