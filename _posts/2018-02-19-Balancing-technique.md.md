@@ -50,7 +50,7 @@ plt.show()
 ```
 
 
-![png](output_2_0.png)
+![png](/img/output_2_0.png)
 
 
 **Undersampling Methods**: It reduces the number of observations from majority class to balance the data set. The various methods of undersampling implemented in this notebook includes: 
