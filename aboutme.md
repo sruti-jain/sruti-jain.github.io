@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  Sruti Jain
-subtitle: <h2 style="color:blue book"> Cognitive Data Scientist </h2>
+subtitle: <h2 style="color:blue"> Cognitive Data Scientist </h2>
 ---
 
 <div style="text-align: justify"> 
