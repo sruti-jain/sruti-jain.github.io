@@ -11,23 +11,23 @@ During a Monte Carlo simulation, values are sampled at random from the input pro
 
 **Monte Carlo method in Data analysis**:
 
-**Sampling**: Here the objective is to gather information about a random object by observing many realizations of it. An example is simulation modeling, where a random process mimics the behavior of some real-life system, such as a production line or telecommunications network. Another example is found in Bayesian statistics, where Markov chain Monte Carlo (MCMC) is often used to sample from a posterior distribution.
+1. **Sampling**: Here the objective is to gather information about a random object by observing many realizations of it. An example is simulation modeling, where a random process mimics the behavior of some real-life system, such as a production line or telecommunications network. Another example is found in Bayesian statistics, where Markov chain Monte Carlo (MCMC) is often used to sample from a posterior distribution.
 
-**Estimation:** In this case, the emphasis is on estimating certain numerical quantities related to a simulation model. An example in the natural setting of Monte Carlo techniques is the estimation of the expected throughput in a production line. An example in the artificial context is the evaluation of multi-dimensional integrals via Monte Carlo techniques by writing the integral as the expectation of a random variable.
+2. **Estimation:** In this case, the emphasis is on estimating certain numerical quantities related to a simulation model. An example in the natural setting of Monte Carlo techniques is the estimation of the expected throughput in a production line. An example in the artificial context is the evaluation of multi-dimensional integrals via Monte Carlo techniques by writing the integral as the expectation of a random variable.
 
-**Optimization**. The Monte Carlo Method is a powerful tool for the optimization of complicated objective functions. In many applications, these functions are deterministic and randomness is introduced artificially in order to more efficiently search the domain of the objective function. Monte Carlo techniques are also used to optimize noisy functions, where the function itself is random — for example, the result of a Monte Carlo simulation.
+3. **Optimization**. The Monte Carlo Method is a powerful tool for the optimization of complicated objective functions. In many applications, these functions are deterministic and randomness is introduced artificially in order to more efficiently search the domain of the objective function. Monte Carlo techniques are also used to optimize noisy functions, where the function itself is random — for example, the result of a Monte Carlo simulation.
 
 **Advantages of Monte Carlo Simulation**:  Monte Carlo simulation provides a number of advantages over deterministic, or “single-point estimate” analysis:
 
-**Probabilistic Results:** Results show not only what could happen, but how likely each outcome is.
+1. **Probabilistic Results:** Results show not only what could happen, but how likely each outcome is.
 
-**Graphical Results:** Because of the data Monte Carlo simulation generates, it’s easy to create graphs of different outcomes and their chances of occurrence.  This is important for communicating findings to other stakeholders.
+2. **Graphical Results:** Because of the data Monte Carlo simulation generates, it’s easy to create graphs of different outcomes and their chances of occurrence.  This is important for communicating findings to other stakeholders.
 
-**Correlation of Inputs:** In Monte Carlo simulation, it’s possible to model interdependent relationships between input variables.  It’s important for accuracy to represent how, in reality, when some factors go up, others go up or down accordingly.
+3. **Correlation of Inputs:** In Monte Carlo simulation, it’s possible to model interdependent relationships between input variables.  It’s important for accuracy to represent how, in reality, when some factors go up, others go up or down accordingly.
 
-**Sensitivity Analysis:** With just a few cases, deterministic analysis makes it difficult to see which variables impact the outcome the most.  In Monte Carlo simulation, it’s easy to see which inputs had the biggest effect on bottom-line results.
+4. **Sensitivity Analysis:** With just a few cases, deterministic analysis makes it difficult to see which variables impact the outcome the most.  In Monte Carlo simulation, it’s easy to see which inputs had the biggest effect on bottom-line results.
 
-**Scenario Analysis:** In deterministic models, it’s very difficult to model different combinations of values for different inputs to see the effects of truly different scenarios.  Using Monte Carlo simulation, analysts can see exactly which inputs had which values together when certain outcomes occurred.  This is invaluable for pursuing further analysis.
+5. **Scenario Analysis:** In deterministic models, it’s very difficult to model different combinations of values for different inputs to see the effects of truly different scenarios.  Using Monte Carlo simulation, analysts can see exactly which inputs had which values together when certain outcomes occurred.  This is invaluable for pursuing further analysis.
 
 **Real time application of Monte Carlo method:** Determining the value of pi
 
@@ -72,6 +72,8 @@ plt.show()
 ```
 
 ![png](/img/MonteCarloPi.png)
+
+In the next post, we will see the implementation of this method for determining the value at risk for stock market portfolio. 
 
 **References and further reading**:
 
