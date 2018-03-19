@@ -2,15 +2,10 @@
 layout: page
 title: Contact
 subtitle: "Getting in touch"<h1 id="contact">Contact</h1>
+---
 
-<!--
-<div class="alert alert-danger" role="alert">
-I will be away until Feb 6, with very limited time to work. My responses will be slow during this period.
-</div>
--->
 
 <p>You can <a href="mailto:sruti.j1806@gmail.com?subject=Hello from Sruti">Email me</a> or find me <a href="https://twitter.com/sruti_sj">on Twitter</a> if you want to get in touch. As I said, I love meeting new people so don't hesitate to send a message!</p>
-<p>My fulltime job is consulting work in R and Shiny, so feel free to get in touch if you want to discuss potential projects or need any help (for a fee). I also have a great working relationship with RStudio, so if you're considering purchasing any RStudio products, feel free to contact me to discuss.</p>
 
 <form action="https://formspree.io/sruti.j1806@gmail.com" method="POST" class="form" id="contact-form">
   <p>You can also send me a quick message using the form below:</p>
@@ -28,7 +23,5 @@ I will be away until Feb 6, with very limited time to work. My responses will be
   <input type="hidden" name="_next" value="./aboutme?message=Your message was sent successfully, thanks!" />
   <button type="submit" class="btn btn-lg btn-primary">Submit</button>
 </form>
-
-<p>If you'd like to get in touch and are very old-school, you can send a letter to: 102 Beverley Glen Blvd, Thornhill, ON L4J7V2, Canada.</p>
 
 </div>
