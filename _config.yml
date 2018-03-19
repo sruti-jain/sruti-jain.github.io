@@ -22,7 +22,7 @@ description: Sruti Jain | Cognitive and Data Scientist
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "Aboutme"
+  About Me: "aboutme"
   Projects: "Projects"
   Resume : "Resume"
   Contact Me : "Contact"
