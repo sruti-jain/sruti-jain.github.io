@@ -6,7 +6,7 @@ comments: true
 carbonads: true
 ---
 
-#### A Few notable projects: 
+## A Few notable projects: 
 
 - **[Study Of Airbnb Data](https://public.tableau.com/profile/sruti.jain#!/vizhome/Airbnb_27/TopAirbnbPerformers)** - The aim of the project is to optimize the price of new house listing by analysing other people's pricing data in surrounding areas, relative to features such as locations, amenities, reviews, etc.   
   Check out a [demo online](https://public.tableau.com/profile/sruti.jain#!/vizhome/Airbnb_27/TopAirbnbPerformers).   
