@@ -309,7 +309,7 @@ plt.show()
 ![png](/img/output_8_0.png)
 
 
-The IPython Notebook implementation of the above methods can be found on [Github Link](https://github.com/sruti-jain/Statistical_Techniques/blob/master/Balancing%20techniques%20for%20unbalanced%20datasets.ipynb)
+The IPython Notebook implementation of the above methods can be found on [Github](https://github.com/sruti-jain/Statistical_Techniques/blob/master/Balancing%20techniques%20for%20unbalanced%20datasets.ipynb)
 
 For more documentation of above methods in **Python** refer to [Package ‘imblearn’](http://contrib.scikit-learn.org/imbalanced-learn/api.html)   
 For more documentation of above methods in **R** refer to [Package ‘unbalanced’](https://cran.r-project.org/web/packages/unbalanced/unbalanced.pdf)
