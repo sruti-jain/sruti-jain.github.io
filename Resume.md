@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ""
-subtitle: Resume
+subtitle: <b>Resume</b>
 comments: true
 carbonads: true
 ---
