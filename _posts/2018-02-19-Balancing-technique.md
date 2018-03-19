@@ -1,5 +1,10 @@
-
-**Sampling Techniques for imbalanced Dataset:**
+---
+layout: post
+title: Balancing techniques for unbalanced datasets 
+subtitle: in Python & R
+image: /img/Balancing-Techniques.png
+tags: [Statistical Modeling, Data Sampling, Imbalanced-Learn, OverSampling, Python, UnderSampling]
+---
 
 **Data Sampling** in data science is an important aspect for any statistical analysis project which is used to select, manipulate and analyze a representative subset of data points called samples in order to identify patterns and trends in the larger data set usually termed as population being examined. Lets say we are conducting a survey in the United States, and we collected data from 1000 samples. The information from these samples can then be used to infer details about the entire population of the United States. The essential point to be noted here is that these sample points should in turn be very close to the population we are examining. If the data is normally distributed, then the samples can be randomly chosen. However if we are dealing with unbalanced dataset where number of instances of one class predominates the other, then we must use balancing strategies for selecting random samples to avoid majority class bias.
 
