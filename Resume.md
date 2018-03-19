@@ -1,22 +1,22 @@
 ---
 layout: page
 title: ""
+subtitle: Resume
 comments: true
 carbonads: true
 ---
 
-## Resume
 ### Education
 
 #### <span class="fa fa-graduation-cap about-icon"></span>  University of Texas at Dallas  
 
 Master of Science in Applied Cognition & Neuroscience, GPA 3.93/4.0   
-**Specialization**: Data Science / Computational Modeling, Anticipated May 2018
+**Specialization**: Data Science/Computational Modeling, Anticipated May 2018
 
 #### <span class="fa fa-graduation-cap about-icon"></span>  Shreemati Nathibai Damodar Thackersey Women's University, India   
 
 Bachelor of Technology in Electronics & Communication Engineering, GPA 3.80/4.0   
-**Specialization**: Data Science / Computational Modeling, July 2012
+**Specialization**: Robotics & AI Engineering, July 2012
 
 ---
 
@@ -28,7 +28,7 @@ Bachelor of Technology in Electronics & Communication Engineering, GPA 3.80/4.0
 - **Databases:** Oracle 11g, SQLite3, MySQL, MongoDB                           
 - **Software Management:** JIRA, HP ALM, IBM ClearCase & ClearQuest, Microsoft Office  
 - **Data Analysis Tools:** Advanced MS-Excel, SPSS, Tableau, Google Analytics  
-- **Version Control**: Git, Github **Platforms:** Windows, Linux  
+- **Version Control**: Git, Github    **Platforms:** Windows, Linux  
 - **Frameworks/Libraries:** scikit-learn, pandas, numpy, tensorflow, keras, seaborn, scipy, matplotlib, bokeh, Agile, Waterfall Model  
 - **Certifications:** Machine Learning, Customer Analytics, ETL frameworks, People Analytics, R Programming, Neural Networks.
 
