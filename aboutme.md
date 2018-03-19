@@ -4,8 +4,7 @@ title: Sruti Jain
 subtitle: Cognitive Data Scientist
 ---
 
-<div style="text-align: justify", style="color:blue"> 
-
+<div style="text-align: justify","color:blue"> 
 Hello! My name is Sruti and I am a Graduate Research Assistant at The University of Texas at Dallas pursuing MS in Cognitive Science specializing in Computational modeling / Data Science. My expertise include Multivariate Data Analysis, Data Visualization, Business Intelligence, Machine Learning and organizational behavior(Psychology). I'm passionate about using data to tell a story and gain counter-intuitive insights. </div>  
 
 <div style="text-align: justify"> 
