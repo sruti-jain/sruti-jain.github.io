@@ -36,6 +36,7 @@ Bachelor of Technology in Electronics & Communication Engineering, GPA 3.80/4.0
 
 ### Experience
 
+
 #### <span class="fa fa-briefcase about-icon"></span>  University of Texas at Dallas - Graduate Research Assistant
 
 (Dallas, TX)   Oct 2017 - Present  
