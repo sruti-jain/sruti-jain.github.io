@@ -2,7 +2,7 @@
 layout: post
 title: Data Project - Stock Market Analysis
 subtitle: Risk Analysis Monte Carlo
-math: true
+use_math: true
 tags: [Data Science, Monte Carlo, Python, Stock Market Analysis]
 ---
 
@@ -407,12 +407,12 @@ This means that the past information on the price of a stock is independent of w
 
 The equation for geometric Browninan motion is given by the following equation:
 
-$$\frac {\Delta{S}}{S} = {\mu \Delta{t}} + {\sigma \epsilon \sqrt{\Delta{t}}} $$
+$\frac {\Delta{S}}{S} = {\mu \Delta{t}} + {\sigma \epsilon \sqrt{\Delta{t}}} $
 
 Where S is the stock price, mu is the expected return (which we calculated earlier),sigma is the standard deviation of the returns, t is time, and epsilon is the random variable.
 We can mulitply both sides by the stock price (S) to rearrange the formula and solve for the stock price.
 
-$$ {\Delta{S}} = S ({\mu \Delta{t}} + {\sigma \epsilon \sqrt{\Delta{t}}}) $$
+$ {\Delta{S}} = S ({\mu \Delta{t}} + {\sigma \epsilon \sqrt{\Delta{t}}}) $
 
 
 Now we see that the change in the stock price is the current stock price multiplied by two terms. The first term is known as "drift", which is the average daily return multiplied by the change of time. The second term is known as "shock", for each tiem period the stock will "drift" and then experience a "shock" which will randomly push the stock price up or down. By simulating this series of steps of drift and shock thousands of times, we can begin to do a simulation of where we might expect the stock price to be.
