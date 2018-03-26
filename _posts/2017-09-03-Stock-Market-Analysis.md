@@ -8,7 +8,7 @@ tags: [Data Science, Monte Carlo, Python, Stock Market Analysis]
 
 We have already learnt about Monte Carlo method in the previous post - [Monte Carlo](https://sruti-jain.github.io/2017-08-17-Monte-Carlo-Method/).
 In this post I am going to discuss on how can that method be used for determining the maximum risk involved in investing to a stock.
-
+$x= \frac{trackla}{futi}$
 ```python
 #import libraries
 import pandas as pd
