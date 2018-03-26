@@ -12,9 +12,11 @@
   {% endif %}
 
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }} {{ site.title-separator }} {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-  {% if page.math %}
+  
+  {% if page.use_math %}
     {% include mathSupport.html %}
   {% endif %}
+  
   {% include gtm_head.html %}
 
   {% if layout.common-ext-css %}
