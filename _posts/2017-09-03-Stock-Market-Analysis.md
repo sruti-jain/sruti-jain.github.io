@@ -3,7 +3,6 @@ layout: post
 title: Data Project - Stock Market Analysis
 subtitle: Risk Analysis Monte Carlo
 tags: [Data Science, Monte Carlo, Python, Stock Market Analysis]
-use_math: true
 ---
 
 We have already learnt about Monte Carlo method in the previous post - [Monte Carlo](https://sruti-jain.github.io/2017-08-17-Monte-Carlo-Method/).
