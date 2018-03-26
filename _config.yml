@@ -132,13 +132,13 @@ title-separator: "-"
 
 # Output options (more information on Jekyll's site)
 timezone: "America/Vancouver"
-markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 paginate: 5
 
+markdown: kramdown
 kramdown:
-  input: GFM
+  math_engine: mathjax
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
