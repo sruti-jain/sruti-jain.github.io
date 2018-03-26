@@ -2,9 +2,10 @@
 layout: post
 title: Monte Carlo Method
 subtitle: Data Analytics
+use_math :true
 tags: [Data Science, Monte Carlo Method, Risk Analysis, Statistical Modeling]
 ---
-
+$x = \sigma$
 **Monte Carlo Method** is a computational mathematical technique that allows us to interpret all probable outcomes of our decisions allowing better decision making strategies under uncertainty. The essential idea behind this method is using randomness to solve problems that might be deterministic in principle.
 
 During a Monte Carlo simulation, values are sampled at random from the input probability distributions.  Each set of samples is called an iteration, and the resulting outcome from that sample is recorded.  Monte Carlo simulation does these hundreds or thousands of times, and the result is a probability distribution of possible outcomes.  In this way, Monte Carlo simulation provides a much more comprehensive view of what may happen.  It tells you not only what could happen, but how likely it is to happen. The larger the sample size, the more accurate the estimation of the output distributions.
