@@ -2,6 +2,7 @@
 layout: post
 title: Data Project - Stock Market Analysis
 subtitle: Risk Analysis Monte Carlo
+math: true
 tags: [Data Science, Monte Carlo, Python, Stock Market Analysis]
 ---
 
