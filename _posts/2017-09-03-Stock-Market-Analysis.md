@@ -13,6 +13,10 @@ $$
    |\psi_1\rangle = a|0\rangle + b|1\rangle
 $$
 
+\begin{equation}
+   |\psi_1\rangle = a|0\rangle + b|1\rangle
+\end{equation}
+
 ```python
 #import libraries
 import pandas as pd
