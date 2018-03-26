@@ -138,7 +138,7 @@ paginate: 5
 
 markdown: kramdown
 kramdown:
-  math_engine: mathjax
+  math_engine: mathjx
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
