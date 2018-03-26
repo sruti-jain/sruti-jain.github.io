@@ -2,7 +2,7 @@
 layout: post
 title: Monte Carlo Method
 subtitle: Data Analytics
-use_math :true
+use_math: true
 tags: [Data Science, Monte Carlo Method, Risk Analysis, Statistical Modeling]
 ---
 $x = \sigma$
