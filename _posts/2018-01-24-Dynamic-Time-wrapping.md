@@ -24,7 +24,7 @@ Multiple studies as confirmed that for the problem involving time series data fo
 
 Compute the distance matrix(cost matrix) between every possible pair of points between the two time series. Any possible wrapping between two time series will be a path through the computed cost matrix. 
 
-$DTW(q,c) = min \Bigg( \frac{\sqrt{\sum_{k=1}^{K}w_k)}}{K} \Bigg)$, here w is the wrapping constant.
+$$DTW(q,c) = min \Bigg( \frac{\sqrt{\sum_{k=1}^{K}w_k)}}{K} \Bigg)$$, here w is the wrapping constant.
 
 The optimal (minimum) path or wrapping between two time series will provide us with the DTW, which can be obtained using the below recursive function.
 
