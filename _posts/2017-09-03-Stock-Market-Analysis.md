@@ -2,8 +2,8 @@
 layout: post
 title: Data Project - Stock Market Analysis
 subtitle: Risk Analysis Monte Carlo
-use_math: true
 tags: [Data Science, Monte Carlo, Python, Stock Market Analysis]
+use_math: true
 ---
 
 We have already learnt about Monte Carlo method in the previous post - [Monte Carlo](https://sruti-jain.github.io/2017-08-17-Monte-Carlo-Method/).
@@ -340,7 +340,7 @@ cor(tech_rets.dropna(),annot=True)
       warnings.warn(("The `corrplot` function has been deprecated in favor "
     C:\Users\saj16\Anaconda3\lib\site-packages\seaborn\linearmodels.py:1356: UserWarning: The `symmatplot` function has been deprecated in favor of `heatmap` and will be removed in a forthcoming release. Please update your code.
       warnings.warn(("The `symmatplot` function has been deprecated in favor "
-    
+
 
 
 
