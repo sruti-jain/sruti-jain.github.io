@@ -7,7 +7,6 @@ use_math: true
 ---
 
 We have already learnt about Monte Carlo method in the previous post - [Monte Carlo](https://sruti-jain.github.io/2017-08-17-Monte-Carlo-Method/).
-$$x= \frac{trackla}{futi}$$
 In this post I am going to discuss on how can that method be used for determining the maximum risk involved in investing to a stock.
 
 ```python
@@ -407,8 +406,8 @@ We will use the geometric Brownian motion (GBM), which is technically known as a
 This means that the past information on the price of a stock is independent of where the stock price will be in the future, basically meaning, you can't perfectly predict the future solely based on the previous price of a stock.
 
 The equation for geometric Browninan motion is given by the following equation:
-
-$\frac {\Delta{S}}{S} = {\mu \Delta{t}} + {\sigma \epsilon \sqrt{\Delta{t}}} $
+$$x= \frac{trackla}{futi}$$
+$$\frac{\Delta{S}}{S}= {\mu \Delta{t}}+{\sigma \epsilon \sqrt{\Delta{t}}}$$
 
 Where S is the stock price, mu is the expected return (which we calculated earlier),sigma is the standard deviation of the returns, t is time, and epsilon is the random variable.
 We can mulitply both sides by the stock price (S) to rearrange the formula and solve for the stock price.
