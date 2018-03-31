@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Fun Ad Mads- College Indoor event
-image: /img/hello_world.jpeg
 ---
 
 Crazy fun. We had ‘Ad Mads’ competition today in college. Many of us just wondered is this just what the names suggest. And to our surprise yes it was somewhat related.
