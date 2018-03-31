@@ -140,7 +140,7 @@ AAPL.describe()
 AAPL['Adj Close'].plot(legend=True,figsize=(10,4))
 ```
 
-![png](img/montecarlo/output_5_1.png)
+![png](\img\montecarlo\output_5_1.png)
 
 
 
