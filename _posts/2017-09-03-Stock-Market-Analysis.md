@@ -139,10 +139,7 @@ AAPL.describe()
 # Let's see historical view of the closing price for the last one year
 AAPL['Adj Close'].plot(legend=True,figsize=(10,4))
 ```
-
-![png](\img\montecarlo\output_5_1.png)
-
-
+![png](/img/montecarlo/output_5_1.png)
 
 ```python
 # Now let's plot the total volume of stock being traded each day over the past year
