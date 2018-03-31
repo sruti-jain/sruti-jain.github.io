@@ -145,8 +145,7 @@ AAPL['Adj Close'].plot(legend=True,figsize=(10,4))
 # Now let's plot the total volume of stock being traded each day over the past year
 AAPL['Volume'].plot(legend=True,figsize=(10,4))
 ```
-
-![png](output_6_1.png)
+![png](/img/montecarlo/output_6_1.png)
 
 
 ```python
@@ -160,7 +159,7 @@ for ma in moving_avg_day:
 AAPL[['Adj Close','MA for 10 days','MA for 20 days','MA for 50 days']].plot(subplots=False,figsize=(15,6))
 ```
 
-![png](output_7_2.png)
+![png](/img/montecarlo/output_7_2.png)
 
 
 
@@ -180,7 +179,7 @@ AAPL['Daily Return'].plot(figsize=(12,4),legend=True,linestyle='--',marker='o')
 sns.distplot(AAPL['Daily Return'].dropna(),bins=100,color='red')
 ```
 
-![png](output_9_2.png)
+![png](/img/montecarlo/output_9_2.png)
 
 
 ```python
@@ -276,7 +275,7 @@ sns.jointplot('GOOG','MSFT',tech_rets,kind='scatter')
 
 
 
-![png](output_13_1.png)
+![png](/img/montecarlo/output_13_1.png)
 
 
 The correlation coefficient of 0.6 indicates a strong correlation between the daily return values of Microsoft and Google. This inplies that if google's stock value increases, microsoft's stock value and hence daily return increases and vice versa. This analysis can further be extended by first segmentation of stock based on industry and then further analysis can be done to determine the choice of stock within that industry. 
@@ -295,7 +294,7 @@ sns.pairplot(tech_rets.dropna())
 
 
 
-![png](output_15_1.png)
+![png](/img/montecarlo/output_15_1.png)
 
 
 
@@ -322,7 +321,7 @@ close_fig.map_diag(plt.hist,bins=30)
 
 
 
-![png](output_16_1.png)
+![png](/img/montecarlo/output_16_1.png)
 
 
 
@@ -346,7 +345,7 @@ cor(tech_rets.dropna(),annot=True)
 
 
 
-![png](output_17_2.png)
+![png](/img/montecarlo/output_17_2.png)
 
 
 **Risk Analysis: Bootstraping method, Monte Carlo method**
@@ -375,7 +374,7 @@ for label, x, y in zip(rets.columns, rets.mean(), rets.std()):
 ```
 
 
-![png](output_19_0.png)
+![png](/img/montecarlo/output_19_0.png)
 
 
 As seen in the above plot the less the expected return, lesser the risk involved. Next lets determine the "Value at Risk", that is the worst daily loss that can be encountered with 95 % Confidence. 
@@ -465,7 +464,7 @@ plt.title('Monte Carlo Analysis for Google')
 
 
 
-![png](output_26_1.png)
+![png](/img/montecarlo/output_26_1.png)
 
 
 
@@ -497,7 +496,7 @@ plt.title(u"Final price distribution for Google Stock after %s days" % days, wei
 ```
 
 
-![png](output_27_0.png)
+![png](/img/montecarlo/output_27_0.png)
 
 
 This basically means that for every initial stock you purchase there is about $13.61 at risk 1% of the time as predicted by Monte Carlo Simulation. 
