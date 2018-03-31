@@ -406,13 +406,12 @@ We will use the geometric Brownian motion (GBM), which is technically known as a
 This means that the past information on the price of a stock is independent of where the stock price will be in the future, basically meaning, you can't perfectly predict the future solely based on the previous price of a stock.
 
 The equation for geometric Browninan motion is given by the following equation:
-$$x= \frac{trackla}{futi}$$
 $$\frac{\Delta{S}}{S}= {\mu \Delta{t}}+{\sigma \epsilon \sqrt{\Delta{t}}}$$
 
 Where S is the stock price, mu is the expected return (which we calculated earlier),sigma is the standard deviation of the returns, t is time, and epsilon is the random variable.
 We can mulitply both sides by the stock price (S) to rearrange the formula and solve for the stock price.
 
-$ {\Delta{S}} = S ({\mu \Delta{t}} + {\sigma \epsilon \sqrt{\Delta{t}}}) $
+$${\Delta{S}}= S({\mu \Delta{t}}+{\sigma \epsilon \sqrt{\Delta{t}}})$$
 
 
 Now we see that the change in the stock price is the current stock price multiplied by two terms. The first term is known as "drift", which is the average daily return multiplied by the change of time. The second term is known as "shock", for each tiem period the stock will "drift" and then experience a "shock" which will randomly push the stock price up or down. By simulating this series of steps of drift and shock thousands of times, we can begin to do a simulation of where we might expect the stock price to be.
