@@ -410,7 +410,6 @@ $$\frac{\Delta{S}}{S}= {\mu \Delta{t}}+{\sigma \epsilon \sqrt{\Delta{t}}}$$
 
 Where S is the stock price, mu is the expected return (which we calculated earlier),sigma is the standard deviation of the returns, t is time, and epsilon is the random variable.
 We can mulitply both sides by the stock price (S) to rearrange the formula and solve for the stock price.
-
 $${\Delta{S}}= S({\mu \Delta{t}}+{\sigma \epsilon \sqrt{\Delta{t}}})$$
 
 
