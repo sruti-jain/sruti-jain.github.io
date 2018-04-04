@@ -162,9 +162,10 @@ biases = tf.Variable(tf.zeros([num_classes]))
 logits = tf.matmul(x, weights) + biases
 ```
 
-Now logits is a matrix with num_images rows and num_classes columns, where the element of the $i$'th row and $j$'th column is an estimate of how likely the $i$'th input image is to be of the $j$'th class.
+Now logits is a matrix with num_images rows and num_classes columns, where the element of the $$i$$'th row and $$j$$'th column is an estimate of how likely the $$i$$'th input image is to be of the $$j$$'th class.
 So we want to normalize them so that each row of the logits matrix sums to one, and each element is limited between zero and one. This is calculated using the so-called softmax function and the result is stored in y_pred.
 
+$$\frac{\Delta{S}}{S}= {\mu \Delta{t}}+{\sigma \epsilon \sqrt{\Delta{t}}}$$
 
 ```python
 y_pred = tf.nn.softmax(logits)
@@ -201,7 +202,7 @@ correct_prediction = tf.equal(y_pred_cls, y_true_cls)
 accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
 ```
 
-**Lets create TensorFlow session**
+**Lets create TensorFlow session**   
 Once the TensorFlow graph has been created, we have to create a TensorFlow session which is used to execute the graph.
 
 
