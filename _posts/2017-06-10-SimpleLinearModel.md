@@ -303,7 +303,7 @@ plot_test_sample()
     
 
 
-![png](output_26_1.png)
+![png](/img/Tensorflow_Linear/output_26_1.png)
 
 
 
@@ -318,7 +318,7 @@ plot_test_sample()
     
 
 
-![png](output_27_1.png)
+![png](/img/Tensorflow_Linear/output_27_1.png)
 
 
 
@@ -327,7 +327,7 @@ plot_weights()
 ```
 
 
-![png](output_28_0.png)
+![png](/img/Tensorflow_Linear/output_28_0.png)
 
 
 
@@ -342,7 +342,7 @@ plot_test_sample()
     
 
 
-![png](output_29_1.png)
+![png](/img/Tensorflow_Linear/output_29_1.png)
 
 
 
@@ -351,5 +351,5 @@ plot_weights()
 ```
 
 
-![png](output_30_0.png)
+![png](/img/Tensorflow_Linear/output_30_0.png)
 
