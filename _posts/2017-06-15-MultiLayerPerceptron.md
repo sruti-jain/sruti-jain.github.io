@@ -50,7 +50,7 @@ n_input = 784 # MNIST data input (img shape: 28*28)
 n_classes = 10 # MNIST total classes (0-9 digits)
 ```
 
-### Building our tensorflow Graph
+**Building our tensorflow Graph**
 
 
 ```python
@@ -118,7 +118,7 @@ cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=pred, label
 optimizer = tf.train.AdamOptimizer(learning_rate=learning_rate).minimize(cost)
 ```
 
-### Launch graph
+**Launch graph**
 
 
 ```python
@@ -172,3 +172,4 @@ with tf.Session() as sess:
     Optimization Finished!
     Accuracy: 0.9409
     
+As we see that the accuracy is increased from 91.4% to 94.09% using this network. In the next post, we shall implement learn about Restricted Boltzmann Machine algorithm and it's implementation using TensorFlow on the same dataset. 
