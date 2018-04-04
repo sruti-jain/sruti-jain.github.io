@@ -143,20 +143,20 @@ __How can we calculate CD?__
 We can perform single-step Contrastive Divergence (CD-1) taking the following steps:
 
 1. Take a training sample from X, compute the probabilities of the hidden units and sample a hidden activation vector h0 from this probability distribution.
- - $$h0 = sigmoid(X \otimes W + hb)$$     
- - $$h0 = sampleProb(h0)$$   
+ - $$h0 = sigmoid(X \otimes W + hb)$$.    
+ - $$h0 = sampleProb(h0)$$.   
 2. Compute the [outer product](https://en.wikipedia.org/wiki/Outer_product) of X and h0 and call this the positive gradient.
  - $$w\_pos\_grad = X \otimes h0$$  (Reconstruction in the first pass)   
 3. From h, reconstruct v1, and then take a sample of the visible units, then resample the hidden activations h1 from this. (**Gibbs sampling step**)
- - $$v1 = sigmoid(h0 \otimes transpose(W) + vb)$$   
+ - $$v1 = sigmoid(h0 \otimes transpose(W) + vb)$$.   
  - $$v1 = sample_prob(v1)$$  (Sample v given h)
- - $$h1 = sigmoid(v1 \otimes W + hb)$$    
+ - $$h1 = sigmoid(v1 \otimes W + hb)$$.    
 4. Compute the outer product of v1 and h1 and call this the negative gradient.
  - $$w\_neg\_grad = v1 \otimes h1$$  (Reconstruction 1)
 5. Now, CD equals the positive gradient minus the - negative gradient, CD is a matrix of size 784x512. 
- - $$CD = (w\_pos\_grad - w\_neg\_grad) / datapoints$$    
+ - $$CD = (w\_pos\_grad - w\_neg\_grad) / datapoints$$.    
 6. Update the weight to be CD times some learning rate
- - $$W' = W + alpha*CD$$    
+ - $$W' = W + alpha*CD$$.    
 7. At the end of the algorithm, the visible nodes will store the value of the sample.
 
 **What is sampling here (sampleProb)?**   
