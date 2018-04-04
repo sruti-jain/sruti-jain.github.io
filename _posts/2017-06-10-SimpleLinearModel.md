@@ -1,9 +1,12 @@
+---
+layout: post
+title: TensorFlow Learning - Part 1
+subtitle: Simple Linear Model
+tags: [Tensorflow, Python, Machine learning]
+---
 
-# Simple Linear Model
-
-## Introduction
+**Introduction**
 This tutorial demonstrates the basic workflow of a simple linear model using TensorFlow for the so-called MNIST data-set with images of hand-written digits. We define and optimize a mathematical model in TensorFlow, while plotting & discussing the results. 
-
 
 ```python
 # Import libraries
@@ -16,7 +19,6 @@ import warnings
 warnings.filterwarnings('ignore')
 from sklearn.metrics import confusion_matrix
 ```
-
 
 ```python
 # Loading the MNIST Dataset
@@ -51,7 +53,6 @@ data.test.labels[0:5, :]
            [ 0.,  1.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.],
            [ 1.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.],
            [ 0.,  0.,  0.,  0.,  1.,  0.,  0.,  0.,  0.,  0.]])
-
 
 
 
@@ -124,10 +125,10 @@ plot_images(images=images, cls_true=cls_true)  # Plot the images and labels usin
 ```
 
 
-![png](output_10_0.png)
+![png](/img/Tensorflow_Linear/output_10_0.png)
 
 
-### Defining our TensorFlow Graph
+**Defining our TensorFlow Graph**
 A TensorFlow graph consists of the following parts:
 1. Placeholder variables used to change the input to the graph.
 2. Model variables that are going to be optimized so as to make the model perform better.
@@ -321,7 +322,6 @@ plot_test_sample()
 ![png](/img/Tensorflow_Linear/output_27_1.png)
 
 
-
 ```python
 plot_weights()
 ```
@@ -352,4 +352,3 @@ plot_weights()
 
 
 ![png](/img/Tensorflow_Linear/output_30_0.png)
-
