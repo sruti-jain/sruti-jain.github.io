@@ -7,6 +7,7 @@ use_math: true
 ---
 
 **Restricted Boltzmann Machine (RBM):** are shallow neural nets that learn to reconstruct data by themselves in an unsupervised fashion.  
+
 **How does it work?**   
 Simply, RBM takes the inputs and translates them to a set of numbers that represents them. Then, these numbers can be translated back to reconstruct the inputs. Through several forward and backward passes, the RBM will be trained, and a trained RBM can reveal which features are the most important ones when detecting patterns.   
 
@@ -64,11 +65,12 @@ hb = tf.placeholder("float", [512])
 W = tf.placeholder("float", [784, 512])
 ```
 
-**RBM has two phases**: 
-1) Forward Pass
-2) Backward Pass or Reconstruction
+**RBM has two phases**:   
+1. Forward Pass
+2. Backward Pass or Reconstruction
 
 **Forward pass**: Processing happens in each node in the hidden layer. That is, input data from all visible nodes are being passed to all hidden nodes. This computation begins by making stochastic decisions about whether to transmit that input or not (i.e. to determine the state of each hidden layer). At the hidden layer's nodes, X is multiplied by a W and added to h_bias. The result of those two operations is fed into the sigmoid function, which produces the node’s output/state. As a result, one output is produced for each hidden node. So, for each row in the training set, a tensor of probabilities is generated, which in our case it is of size [1x512], and totally 55000 vectors (h0=[55000x512]).   
+
 Then, we take the tensor of probabilities (as from a sigmoidal activation) and make samples from all the distributions, h0. That is, we sample the activation vector from the probability distribution of hidden layer values. Samples are used to estimate the negative phase gradient which will be explained later.
 
 
@@ -111,12 +113,10 @@ v1 = tf.nn.relu(tf.sign(_v1 - tf.random_uniform(tf.shape(_v1)))) #sample_v_given
 h1 = tf.nn.sigmoid(tf.matmul(v1, W) + hb)
 ```
 
-**What is objective function?**
-Goal: Maximize the likelihood of our data being drawn from that distribution
-Calculate error:
+**What is objective function?**   
+Goal: Maximize the likelihood of our data being drawn from that distribution. 
 
-In each epoch, we compute the "error" as a sum of the squared difference between step 1 and step n, e.g the error shows the difference between the data and its reconstruction.
-
+Calculate error: In each epoch, we compute the "error" as a sum of the squared difference between step 1 and step n, e.g the error shows the difference between the data and its reconstruction.
 Note: tf.reduce_mean computes the mean of elements across dimensions of a tensor.
 
 
@@ -136,32 +136,32 @@ The negative phase is hard to compute, so we use a method called __Contrastive D
 Contrastive Divergence is actually matrix of values that is computed and used to adjust values of the W matrix. Changing W incrementally leads to training of W values. Then on each step (epoch), W is updated to a new value W' through the equation below:
 $$W' = W + alpha * CD$$
 
-__ What is Alpha?__  
+__What is Alpha?__  
 Here, alpha is some small step rate and is also known as the "learning rate".
 
 __How can we calculate CD?__  
 We can perform single-step Contrastive Divergence (CD-1) taking the following steps:
 
 1. Take a training sample from X, compute the probabilities of the hidden units and sample a hidden activation vector h0 from this probability distribution.
- - $$\_h0 = sigmoid(X \otimes W + hb)$$
- - $$h0 = sampleProb(h0)$$
+ - $$\h0 = sigmoid(X \otimes W + hb)$$   
+ - $$h0 = sampleProb(h0)$$   
 2. Compute the [outer product](https://en.wikipedia.org/wiki/Outer_product) of X and h0 and call this the positive gradient.
- - $w\_pos\_grad = X \otimes h0$  (Reconstruction in the first pass)  
+ - $$w\_pos\_grad = X \otimes h0$$  (Reconstruction in the first pass)   
 3. From h, reconstruct v1, and then take a sample of the visible units, then resample the hidden activations h1 from this. (**Gibbs sampling step**)
- - $\_v1 = sigmoid(h0 \otimes transpose(W) + vb)$
- - $v1 = sample_prob(v1)$  (Sample v given h)
- - $h1 = sigmoid(v1 \otimes W + hb)$
+ - $$\_v1 = sigmoid(h0 \otimes transpose(W) + vb)$$
+ - $$v1 = sample_prob(v1)$$  (Sample v given h)
+ - $$h1 = sigmoid(v1 \otimes W + hb)$$
 4. Compute the outer product of v1 and h1 and call this the negative gradient.
- - $w\_neg\_grad = v1 \otimes h1$  (Reconstruction 1)
+ - $$w\_neg\_grad = v1 \otimes h1$$  (Reconstruction 1)
 5. Now, CD equals the positive gradient minus the - negative gradient, CD is a matrix of size 784x512. 
- - $CD = (w\_pos\_grad - w\_neg\_grad) / datapoints$
+ - $$CD = (w\_pos\_grad - w\_neg\_grad) / datapoints$$   
 6. Update the weight to be CD times some learning rate
- - $W' = W + alpha*CD$
+ - $$W' = W + alpha*CD$$   
 7. At the end of the algorithm, the visible nodes will store the value of the sample.
 
-**What is sampling here (sampleProb)?**
-In forward pass: We randomly set the values of each hi to be 1 with probability $sigmoid(v \otimes W + hb)$.  
-In reconstruction: We randomly set the values of each vi to be 1 with probability $ sigmoid(h \otimes transpose(W) + vb)$.
+**What is sampling here (sampleProb)?**   
+In forward pass: We randomly set the values of each hi to be 1 with probability $$sigmoid(v \otimes W + hb)$$.  
+In reconstruction: We randomly set the values of each vi to be 1 with probability $$sigmoid(h \otimes transpose(W) + vb)$$.
 
 
 ```python
@@ -250,7 +250,7 @@ plt.show()
     
 
 
-![png](/img/RBF/output_17_1.png)
+![png](/img/RBM/output_17_1.png)
 
 
 
@@ -265,7 +265,7 @@ imgplot.set_cmap('gray')  #you can experiment different colormaps (Greys,winter,
 ```
 
 
-![png](/img/RBF/output_18_0.png)
+![png](/img/RBM/output_18_0.png)
 
 
 
@@ -287,5 +287,5 @@ imgplot.set_cmap('gray')
 ```
 
 
-![png](/img/RBF/output_20_0.png)
+![png](/img/RBM/output_20_0.png)
 
