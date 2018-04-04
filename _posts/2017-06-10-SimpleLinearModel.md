@@ -2,6 +2,7 @@
 layout: post
 title: TensorFlow Learning - Part 1
 subtitle: Simple Linear Model
+use_math: true
 tags: [Tensorflow, Python, Machine learning]
 ---
 
