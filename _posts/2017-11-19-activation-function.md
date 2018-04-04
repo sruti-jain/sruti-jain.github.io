@@ -41,7 +41,7 @@ There is one major disadvantage of using ReLU function is that if a large gradie
 
 The maxout activation function computes the maximum of a set of linear functions, and has the property that it can approximate any convex function of the input. The maxout function generalizes the ReLU and leaky ReLU by computing the function ![max(w_1^T x + b_1, w_2^T x + b_2) ](http://s0.wp.com/latex.php?latex=max%28w_1%5ET+x+%2B+b_1%2C+w_2%5ET+x+%2B+b_2%29+&bg=ffffff&fg=000000&s=0). The maxout function takes all the advantages of ReLU and also overcome their disadvantage with the implementation of Leaky ReLU but they in turn require but require many more parameters for learning compared to ReLU. 
 
-The best part about modeling is that we have all these functions readily available in libraries today and what we need to know is their application and functioning to apply them correctly for model optimization. As I use python, a few libraries which have inbuilt function to implement all these above activation functions are : *Theano, TensorFlow, Keras, Lasagne, MXNet *to name a few. Hope you found the article informative. Please do write in your views.
+The best part about modeling is that we have all these functions readily available in libraries today and what we need to know is their application and functioning to apply them correctly for model optimization. As I use python, a few libraries which have inbuilt function to implement all these above activation functions are : *Theano, TensorFlow, Keras, Lasagne, MXNet* to name a few. Hope you found the article informative. Please do write in your views.
 
 Further read:
 
@@ -50,5 +50,3 @@ Further read:
 2. [Review on Methods of Selecting Number of Hidden Nodes in Artificial Neural Network](http://www.ijcsmc.com/docs/papers/November2014/V3I11201499a19.pdf)
 
 3. [New activation functions for complex-valued neural network](http://www.academicjournals.org/article/article1380723350_Jalab%2520and%2520Ibrahim.pdf)
-
- 
