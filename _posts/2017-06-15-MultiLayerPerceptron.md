@@ -1,9 +1,14 @@
+---
+layout: post
+title: TensorFlow Learning - Part 2
+subtitle: MultiLayer Perceptron
+tags: [TensorFlow, Python, Machine learning, Neural Network]
+use_math: true
+---
 
-# Neural Network Example
 
-### Developing a 2-hidden layers fully connected neural network (multilayer perceptron) 
-
-![title](Images/NeuralNetwork.png)
+In this tutorial we will be developing a 2-hidden layers fully connected neural network (multilayer perceptron) 
+![png](/img/NeuralNetwork.png)
 
 In this example we are using some of TensorFlow higher-level wrapper classes (tf.estimators, tf.layers, tf.metrics, ...). 
 1. tf.estimators: Estimator class to train and evaluate TensorFlow models.
