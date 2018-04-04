@@ -7,7 +7,7 @@ use_math: true
 ---
 
 
-In this tutorial we will be developing a 2-hidden layers fully connected neural network (multilayer perceptron) 
+In this tutorial we will be implementing a 2-hidden layers fully connected neural network (multilayer perceptron) 
 ![png](/img/NeuralNetwork.png)
 
 In this example we are using some of TensorFlow higher-level wrapper classes (tf.estimators, tf.layers, tf.metrics, ...). 
