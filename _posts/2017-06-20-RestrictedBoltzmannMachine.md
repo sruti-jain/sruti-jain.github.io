@@ -1,14 +1,18 @@
+---
+layout: post
+title: TensorFlow Learning - Part 3
+subtitle: Restricted Boltzmann Machine
+tags: [TensorFlow, Python, Machine learning, Neural Network, Restricted Boltzmann Machine]
+use_math: true
+---
 
-### Introduction
-__Restricted Boltzmann Machine (RBM):__  RBMs are shallow neural nets that learn to reconstruct data by themselves in an unsupervised fashion.  
-
-##### How does it work?
-Simply, RBM takes the inputs and translates them to a set of numbers that represents them. Then, these numbers can be translated back to reconstruct the inputs. Through several forward and backward passes, the RBM will be trained, and a trained RBM can reveal which features are the most important ones when detecting patterns.
-
-##### What are the applications of RBM?
+**Restricted Boltzmann Machine (RBM):** are shallow neural nets that learn to reconstruct data by themselves in an unsupervised fashion.  
+**How does it work?**   
+Simply, RBM takes the inputs and translates them to a set of numbers that represents them. Then, these numbers can be translated back to reconstruct the inputs. Through several forward and backward passes, the RBM will be trained, and a trained RBM can reveal which features are the most important ones when detecting patterns.   
+**What are the applications of RBM?**   
 RBM is useful for Collaborative Filtering, dimensionality reduction, classification, regression, feature learning, topic modeling and even Deep Belief Networks.
 
-##### RBM is a generative model. What is a generative model?
+**RBM is a generative model. What is a generative model?**   
 First, lets see what is different betwee discriminative and generative model:
 Discriminative:Consider a classification problem in which we want to learn to distinguish between Sedan cars (y = 1) and SUV cars (y = 0), based on some features of an cars. Given a training set, an algorithm like logistic regression tries to find a straight line—that is, a decision boundary—that separates the suv and sedan. Generative: looking at cars, we can build a model of what Sedan cars look like. Then, looking at SUVs, we can build a separate model of what SUV cars look like. Finally, to classify a new car, we can match the new car against the Sedan model, and match it against the SUV model, to see whether the new car looks more like the SUV or Sedan.
 
