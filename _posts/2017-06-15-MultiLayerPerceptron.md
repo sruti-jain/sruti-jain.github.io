@@ -2,7 +2,7 @@
 layout: post
 title: TensorFlow Learning - Part 2
 subtitle: MultiLayer Perceptron
-tags: [TensorFlow, Python, Machine learning, Neural Network]
+tags: [TensorFlow, Python, Machine learning, Neural Network, Multilayer perceptron]
 use_math: true
 ---
 
