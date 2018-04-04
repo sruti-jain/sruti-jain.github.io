@@ -15,6 +15,8 @@ The identity function is the simplest possible activation function ![a_{linear} 
 
 A step function originally used in a perceptron, outputs a certain value if the input value is above a certain threshold and it outputs another value if the input value is below the threshold. A example of this could be a *binary step function* which is used for binary classification, which outputs 1 if the input is above threshold and otherwise outputs 0. This function can also be used as *feature identifiers* in which these identifiers outputs a 1 if feature is present and 0 otherwise which can be incorporated in our models.
 
+![png](/img/Activation-func.png)
+
 **Logistic function:**
 
 Logistic function, kind of sigmoid function can be considered a modification of a step function, with an additional region of uncertainty. They are non-linear function with formula ![\textit{f(x)} = \frac{1}{1+e^{-x}} ](http://s0.wp.com/latex.php?latex=%5Ctextit%7Bf%28x%29%7D+%3D+%5Cfrac%7B1%7D%7B1%2Be%5E%7B-x%7D%7D+&bg=ffffff&fg=000000&s=0) which maps the potential in the range (0, 1). In particular, large negative numbers become 0 and large positive numbers become 1. The functions are easy to implement as these functions are bounded unlike the identity functions and as they are easily differentiable.
