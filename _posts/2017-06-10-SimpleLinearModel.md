@@ -162,7 +162,7 @@ biases = tf.Variable(tf.zeros([num_classes]))
 logits = tf.matmul(x, weights) + biases
 ```
 
-Now logits is a matrix with num_images rows and num_classes columns, where the element of the $$i^{\rm\it{th}}$$ row and $$j^{\rm\it{th}}$$ column is an estimate of how likely the $$i$$'th input image is to be of the $$j$$'th class.
+Now logits is a matrix with num_images rows and num_classes columns, where the element of the $$i^{\rm\it{th}}$$ row and $$j^{\rm\it{th}}$$ column is an estimate of how likely the $$i^{\rm\it{th}}$$ input image is to be of the $$j^{\rm\it{th}}$$ class.
 So we want to normalize them so that each row of the logits matrix sums to one, and each element is limited between zero and one. This is calculated using the so-called softmax function and the result is stored in y_pred.
 
 $$\frac{\Delta{S}}{S}= {\mu \Delta{t}}+{\sigma \epsilon \sqrt{\Delta{t}}}$$
