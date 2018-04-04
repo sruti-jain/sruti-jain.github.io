@@ -5,7 +5,7 @@ subtitle: Simple Linear Model
 tags: [Tensorflow, Python, Machine learning]
 ---
 
-**Introduction**
+**Introduction**   
 This tutorial demonstrates the basic workflow of a simple linear model using TensorFlow for the so-called MNIST data-set with images of hand-written digits. We define and optimize a mathematical model in TensorFlow, while plotting & discussing the results. 
 
 ```python
@@ -37,7 +37,7 @@ print('Train shape:',data.train.images.shape)
     Train shape: (55000, 784)
     
 
-### One-Hot Encoding
+**One-Hot Encoding**   
 The data-set has been loaded using One-Hot encoding. This means the labels have been converted from a single number to a array whose length equals the number of possible classes. All elements of the vector are zero except for the $i$'th element which is one and means the class is $i$. The One-Hot encoded labels for the first 5 images in the test-set are:
 
 
@@ -87,7 +87,7 @@ img_shape = (img_size, img_size)
 num_classes = 10
 ```
 
-### Helper-function for plotting images
+**Helper-function for plotting images**   
 Function used to plot 9 images in a 3x3 grid, and writing the true and predicted classes below each image.
 
 
@@ -128,7 +128,7 @@ plot_images(images=images, cls_true=cls_true)  # Plot the images and labels usin
 ![png](/img/Tensorflow_Linear/output_10_0.png)
 
 
-**Defining our TensorFlow Graph**
+**Defining our TensorFlow Graph**   
 A TensorFlow graph consists of the following parts:
 1. Placeholder variables used to change the input to the graph.
 2. Model variables that are going to be optimized so as to make the model perform better.
@@ -171,13 +171,9 @@ y_pred = tf.nn.softmax(logits)
 #  Predicting class from the y_pred matrix by taking the index of the largest element in each row.
 y_pred_cls = tf.argmax(y_pred, dimension=1)
 ```
-
-    WARNING:tensorflow:From <ipython-input-17-89ec98878edc>:4: calling argmax (from tensorflow.python.ops.math_ops) with dimension is deprecated and will be removed in a future version.
-    Instructions for updating:
-    Use the `axis` argument instead
     
 
-### Using the cross-entropy as cost-function to be optimized
+**Using the cross-entropy as cost-function to be optimized**
 
 The cross-entropy is a continuous function that is always positive and if the predicted output of the model exactly matches the desired output then the cross-entropy equals zero. The goal of optimization is therefore to minimize the cross-entropy so it gets as close to zero as possible by changing the weights and biases of the model.
 
@@ -204,7 +200,7 @@ correct_prediction = tf.equal(y_pred_cls, y_true_cls)
 accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
 ```
 
-### Lets create TensorFlow session
+**Lets create TensorFlow session**
 Once the TensorFlow graph has been created, we have to create a TensorFlow session which is used to execute the graph.
 
 
@@ -332,23 +328,19 @@ plot_weights()
 
 
 ```python
-# Performance after 10 optimization iterations
-optimize(num_iterations=9)
+# Performance after 1000 optimization iterations
+optimize(num_iterations=999)
 print_accuracy()
 plot_test_sample()
 ```
 
-    Accuracy on test-set: 72.0%
+    Accuracy on test-set: 91.8%
     
-
 
 ![png](/img/Tensorflow_Linear/output_29_1.png)
 
-
-
+We are now done using TensorFlow, so we close the session to release its resources.
 ```python
-plot_weights()
+session.close()
 ```
-
-
-![png](/img/Tensorflow_Linear/output_30_0.png)
+In the next tutorial we will extend our knowledge of simple linear network to build a Multi Layer Perceptron on the same dataset and compare it's performance. 
