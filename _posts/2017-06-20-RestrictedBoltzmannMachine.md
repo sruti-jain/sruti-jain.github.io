@@ -289,3 +289,9 @@ imgplot.set_cmap('gray')
 
 ![png](/img/RBM/output_20_0.png)
 
+I hoped you enjoyed this post about RBMs in TensorFlow! RBMs have a plethora of applications that are more useful than recreating the original image, but their real power comes when we build them into more complex models. For example, we can design Deep Belief Networks by stacking RBMs into multiple layers. Training a DBN is simple - we train each RBM, and pass the mean activations of each trained RBM as input to the next layer. Unlike RBMs, DBNs can take advantage of deep learning to learn hierarchical features of the data.
+
+In the next post, we’re going to talk about a different neural network model - Recurrent Neural Network with LSTM cell. Stay Tuned. 
+
+
+
