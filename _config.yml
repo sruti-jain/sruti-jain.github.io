@@ -142,6 +142,9 @@ paginate: 5
 markdown: kramdown
 kramdown:
   math_engine: mathjax
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
