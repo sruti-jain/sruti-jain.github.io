@@ -132,7 +132,10 @@ title-separator: "-"
 
 # Output options (more information on Jekyll's site)
 timezone: "America/Vancouver"
-highlighter: pygments
+syntax_highlighter: rouge
+syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'
 permalink: /:year-:month-:day-:title/
 paginate: 5
 
