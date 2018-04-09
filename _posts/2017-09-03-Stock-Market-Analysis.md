@@ -9,7 +9,7 @@ use_math: true
 We have already learnt about Monte Carlo method in the previous post - [Monte Carlo](https://sruti-jain.github.io/2017-08-17-Monte-Carlo-Method/).
 In this post I am going to discuss on how can that method be used for determining the maximum risk involved in investing to a stock.
 
-```python
+{% highlight python %}
 #import libraries
 import pandas as pd
 from pandas import Series,DataFrame
@@ -25,9 +25,10 @@ sns.set_style('whitegrid')
 import pandas_datareader as pdr
 from datetime import datetime
 from __future__ import division
-```
+{% endhighlight %}
 
-```python
+
+{% highlight python %}
 import pandas_datareader.data as web
 tech_list = ['AAPL','GOOG','MSFT','AMZN']
 
@@ -37,7 +38,7 @@ start = datetime(end.year - 1,end.month,end.day)
 
 for stock in tech_list:   
     globals()[stock] = web.DataReader(stock,'yahoo',start,end)    
-```
+{% endhighlight %}
 
 
 ```python
