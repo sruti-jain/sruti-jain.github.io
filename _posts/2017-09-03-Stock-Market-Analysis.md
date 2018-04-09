@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Data Project - Stock Market Analysis
 subtitle: Risk Analysis Monte Carlo
 layout: post
