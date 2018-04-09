@@ -14,7 +14,7 @@ In this post, I am writing Undersampling and Oversampling methods that can be im
 
 Below is the code snippet for importing the required libraries in Python and generating an imbalanced dataset for our analysis. 
 
-{% highlight python linenos %}
+{% highlight {python} linenos %}
 # Importing Packages 
 
 import matplotlib as mpl
