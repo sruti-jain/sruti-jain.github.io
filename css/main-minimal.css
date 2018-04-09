@@ -1,9 +1,5 @@
-body {
-  padding: 50px 0;
-}
-
-.hideme {
-  display: none;
+.main-content {
+  padding-bottom: 50px;
 }
 
 footer.footer-min {
