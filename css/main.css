@@ -714,17 +714,14 @@ td.gutter {
 
 .box-note {
   background-color: #eee;
-  border-left-color: #2980b9;
 }
 
 .box-warning {
   background-color: #fdf5d4;
-  border-left-color: #f1c40f;
 }
 
 .box-error {
   background-color: #f4dddb;
-  border-left-color: #c0392b;
 }
 
 /* Fix table border github gist snippets */
