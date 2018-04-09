@@ -37,7 +37,7 @@ from imblearn.ensemble import EasyEnsemble, BalanceCascade
 {% endhighlight %}
 
 
-```python
+{% highlight python linenos %}
 #Imbalanced Data generation
 x, y = make_classification(n_classes=2, class_sep=2, weights=[0.1, 0.9], n_informative=3, n_redundant=1, flip_y=0,
                            n_features=20, n_clusters_per_class=1, n_samples=1000, random_state=10)
@@ -53,7 +53,7 @@ plt.scatter(x_vis[y==1, 0], x_vis[y==1, 1], label="Class #1", alpha=0.5, facecol
 
 plt.legend()
 plt.show()
-```
+{% endhighlight %}
 
 
 ![png](/img/output_2_0.png)
@@ -69,7 +69,7 @@ plt.show()
 7. Neighborhood Cleaning Rule: Utilizes the one-sided selection principle, but considers more carefully the quality of the data to be removed. 
 
 
-```python
+{% highlight python linenos %}
 # Generating new dataset using under-sampling methods mentioned above
 verbose = True
 
@@ -119,9 +119,9 @@ nm3x_vis = pca.transform(nm3x)
 cnnx_vis = pca.transform(cnnx)
 ossx_vis = pca.transform(ossx)
 ncrx_vis = pca.transform(ncrx)
-```
+{% endhighlight %}
 
-```python
+{% highlight python linenos %}
 # Plotting the new dataset after under-sampling
 palette = sns.color_palette()
 fs = 11 # fontsize
@@ -174,7 +174,7 @@ axes[2, 2].scatter(ncrx_vis[ncry==1, 0], ncrx_vis[ncry==1, 1], label="Class #1",
 axes[2, 2].set_title('Neighboorhood cleaning rule', fontsize=fs)
 
 plt.show()
-```
+{% endhighlight %}
 
 
 ![png](/img/output_5_0.png)
@@ -192,7 +192,7 @@ plt.show()
 8. BalanceCascade: BalanceCascade is similar to EasyEnsemble except that it removes correctly classified major class examples of trained learners from further consideration.
 
 
-```python
+{% highlight python linenos %}
 # Generate new dataset after over-sampling methods
 
 # 'Random over-sampling'
@@ -247,10 +247,10 @@ for e in eex:
 bsx_vis = []
 for e in bsx:
     bsx_vis.append(pca.transform(e))
-```
+{% endhighlight %}
 
 
-```python
+{% highlight python linenos %}
 # Initialise the figure
 palette = sns.color_palette()
 fs = 11 # fontsize
@@ -304,7 +304,7 @@ for iy, e in enumerate(bsx_vis):
 axes[2, 2].set_title('Balance-Cascade', fontsize=fs)
 
 plt.show()
-```
+{% endhighlight %}
 
 ![png](/img/output_8_0.png)
 
