@@ -177,9 +177,9 @@ img {
   border-radius: 50%;
   margin-left: -50%;
   display: inline-block;
-  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .8);
-  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
 }
 .navbar-custom .avatar-container  .avatar-img {
   width: 100%;
@@ -224,7 +224,6 @@ img {
 .navbar-custom .nav .navlinks-container .navlinks-children a {
   display: block;
   padding: 10px;
-  padding-left: 30px;
   background-color: {{ site.navbar-children-col }};
   text-decoration: none !important;
   border-width: 0 1px 1px 1px;
@@ -252,7 +251,6 @@ img {
     position: absolute;
   }
   .navbar-custom .nav .navlinks-container .navlinks-children a {
-    padding-left: 10px;
     border: 1px solid #eaeaea;
     border-width: 0 1px 1px;
   }
@@ -708,7 +706,6 @@ td.gutter {
   padding: 15px 15px 15px 10px;
   margin: 20px 20px 20px 5px;
   border: 1px solid #eee;
-  border-left-width: 5px;
   border-radius: 5px 3px 3px 5px;
 }
 
