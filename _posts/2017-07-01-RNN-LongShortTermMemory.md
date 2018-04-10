@@ -144,24 +144,23 @@ init = tf.global_variables_initializer()
 with tf.Session() as sess:
     sess.run(init)
     step = 1
-    # Keep training until reach max iterations
+    #Keep training until reach max iterations
     while step * batch_size < training_iters:
-
-        # We will read a batch of 100 images [100 x 784] as batch_x
-        # batch_y is a matrix of [100x10]
+        #We will read a batch of 100 images [100 x 784] as batch_x
+        #batch_y is a matrix of [100x10]
         batch_x, batch_y = mnist.train.next_batch(batch_size)
         
-        # We consider each row of the image as one sequence
-        # Reshape data to get 28 seq of 28 elements, so that, batxh_x is [100x28x28]
+        #We consider each row of the image as one sequence
+        #Reshape data to get 28 seq of 28 elements, so that, batxh_x is [100x28x28]
         batch_x = batch_x.reshape((batch_size, n_steps, n_input))
 
-        # Run optimization op (backprop)
+        #Run optimization op (backprop)
         sess.run(optimizer, feed_dict={x: batch_x, y: batch_y})
         
         if step % display_step == 0:
-            # Calculate batch accuracy
+            #Calculate batch accuracy
             acc = sess.run(accuracy, feed_dict={x: batch_x, y: batch_y})
-            # Calculate batch loss
+            #Calculate batch loss
             loss = sess.run(cost, feed_dict={x: batch_x, y: batch_y})
             print("Iter " + str(step*batch_size) + ", Minibatch Loss= " + \
                   "{:.6f}".format(loss) + ", Training Accuracy= " + \
@@ -169,7 +168,7 @@ with tf.Session() as sess:
         step += 1
     print("Optimization Finished!")
 
-    # Calculate accuracy for 128 mnist test images
+    #Calculate accuracy for 128 mnist test images
     test_len = 128
     test_data = mnist.test.images[:test_len].reshape((-1, n_steps, n_input))
     test_label = mnist.test.labels[:test_len]
