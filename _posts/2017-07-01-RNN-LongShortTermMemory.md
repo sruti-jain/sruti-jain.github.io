@@ -18,8 +18,6 @@ As seen before, the Long Short-Term Memory is composed of a linear unit surround
 ![png](https://ibm.box.com/shared/static/zx10duv5egw0baw6gh2hzsgr8ex45gsg.png)
 
 **Building a LSTM with TensorFlow**
-LSTM for Classification
-
 Although RNN is mostly used to model sequences and predict sequential data, we can still classify images using a LSTM network. If we consider every image row as a sequence of pixels, we can feed a LSTM network for classification. Lets use the famous MNIST dataset here. Because MNIST image shape is 28*28px, we will then handle 28 sequences of 28 steps for every sample.
 
 
