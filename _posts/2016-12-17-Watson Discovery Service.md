@@ -9,5 +9,5 @@ Reading the tech news today to find yet another new Watson innovation known as t
 
 <iframe width="420" height="315" src="https://youtu.be/q4SVFg6bN5E" frameborder="0" allowfullscreen></iframe>
 
-More information read the IBM release blog post: [IBM Blog Post](https://www.ibm.com/blogs/watson/2016/12/watson-discovery-service-understand-data-scale-less-effort/)
 
+More information read the IBM release blog post: [IBM Blog Post](https://www.ibm.com/blogs/watson/2016/12/watson-discovery-service-understand-data-scale-less-effort/)
