@@ -9,18 +9,13 @@ tags: [Recurrent Neural Network, Deep learning, Python, TensorFlow]
 It is an abstraction of how computer memory works. It is "bundled" with whatever processing unit is implemented in the Recurrent Network, although outside of its flow, and is responsible for keeping, reading, and outputting information for the model. The way it works is simple: you have a linear unit, which is the information cell itself, surrounded by three logistic gates responsible for maintaining the data. One gate is for inputting data into the information cell, one is for outputting data from the input cell, and the last one is to keep or forget data depending on the needs of the network.
 
 Thanks to that, it not only solves the problem of keeping states, because the network can choose to forget data whenever information is not needed, it also solves the gradient problems, since the Logistic Gates have a very nice derivative.
-
 ![png](https://ibm.box.com/shared/static/v7p90neiaqghmpwawpiecmz9n7080m59.png)
-
 **Long Short-Term Memory Architecture**
-
 As seen before, the Long Short-Term Memory is composed of a linear unit surrounded by three logistic gates. The name for these gates vary from place to place, but the most usual names for them are:
 - the "Input" or "Write" Gate, which handles the writing of data into the information cell, 
 - the "Output" or "Read" Gate, which handles the sending of data back onto the Recurrent Network, and 
 - the "Keep" or "Forget" Gate, which handles the maintaining and modification of the data stored in the information cell.
-
-<img src=https://ibm.box.com/shared/static/zx10duv5egw0baw6gh2hzsgr8ex45gsg.png width="720"/>
-<center>*Diagram of the Long Short-Term Memory Unit*</center>
+![png](https://ibm.box.com/shared/static/zx10duv5egw0baw6gh2hzsgr8ex45gsg.png)
 
 **Building a LSTM with TensorFlow**
 LSTM for Classification
