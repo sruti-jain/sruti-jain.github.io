@@ -16,11 +16,12 @@ subtitle: Cognitive Data Scientist
 <p><b>Certifications:</b> Machine Learning, Customer Analytics, ETL frameworks, People Analytics, R Programming</p></div>  
 
 <p><b>Badges</b><p>
-| Priority apples | Second priority | Third priority |
-|-------|--------|---------|
-| ambrosia | gala | red delicious |
-| pink lady | jazz | macintosh |
-| honeycrisp | granny smith | fuji |  
+---
+Badge1: page
+Badge2:  ""
+Badge3: Cognitive Data Scientist
+---
+
   
     <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="7081afde-08d3-4e1a-be30-200d6c4879e0"></div>
   <script type="text/javascript">
