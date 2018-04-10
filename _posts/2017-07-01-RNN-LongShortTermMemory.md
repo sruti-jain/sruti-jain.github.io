@@ -5,7 +5,7 @@ subtitle: Recurrent Neural Network
 tags: [Recurrent Neural Network, Deep learning, Python, TensorFlow]
 ---
 
-<img src="https://ibm.box.com/shared/static/v7p90neiaqghmpwawpiecmz9n7080m59.png" alt="Representation of a Recurrent Neural Network" width=80%>
+![png](https://ibm.box.com/shared/static/v7p90neiaqghmpwawpiecmz9n7080m59.png)
 
 **Long Short-Term Memory**
 It is an abstraction of how computer memory works. It is "bundled" with whatever processing unit is implemented in the Recurrent Network, although outside of its flow, and is responsible for keeping, reading, and outputting information for the model. The way it works is simple: you have a linear unit, which is the information cell itself, surrounded by three logistic gates responsible for maintaining the data. One gate is for inputting data into the information cell, one is for outputting data from the input cell, and the last one is to keep or forget data depending on the needs of the network.
