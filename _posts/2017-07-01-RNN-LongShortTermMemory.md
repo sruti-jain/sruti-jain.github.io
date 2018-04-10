@@ -94,8 +94,8 @@ We will treat the MNIST image $$\in \mathcal{R}^{28 \times 28}$$ as $$28$$ seque
 3. One output layer which converts an $128$ dimensional output of the LSTM to $10$ dimensional output indicating a class label. 
 
 {% highlight python linenos %}
-# Lets design our LSTM Model 
-# Lets define a lstm cell with tensorflow
+#Lets design our LSTM Model 
+#Lets define a lstm cell with tensorflow
 lstm_cell = tf.contrib.rnn.BasicLSTMCell(n_hidden, forget_bias=1.0)
 {% endhighlight %}
 
@@ -103,7 +103,7 @@ lstm_cell = tf.contrib.rnn.BasicLSTMCell(n_hidden, forget_bias=1.0)
 
 
 {% highlight python linenos %}
-# __dynamic_rnn__ creates a recurrent neural network specified from __lstm_cell__:
+#__dynamic_rnn__ creates a recurrent neural network specified from __lstm_cell__:
 outputs, states = tf.nn.dynamic_rnn(lstm_cell, inputs=x, dtype=tf.float32)
 print(outputs)
 {% endhighlight %}
@@ -124,26 +124,23 @@ pred = tf.matmul(output, weights['out']) + biases['out']
     
 
 {% highlight python linenos %}
-# Now, we define the cost function and optimizer:
-
+#Now, we define the cost function and optimizer:
 cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels=y, logits=pred ))
 optimizer = tf.train.AdamOptimizer(learning_rate=learning_rate).minimize(cost)
 {% endhighlight %}
 
 
 {% highlight python linenos %}
-# Here we define the accuracy and evaluation methods to be used in the learning process:
-
+#Here we define the accuracy and evaluation methods to be used in the learning process:
 correct_pred = tf.equal(tf.argmax(pred,1), tf.argmax(y,1))
 accuracy = tf.reduce_mean(tf.cast(correct_pred, tf.float32))
 {% endhighlight %}
 
 
 {% highlight python linenos %}
-# Running the tensorflow graph
+#Running the tensorflow graph
 
 init = tf.global_variables_initializer()
-
 with tf.Session() as sess:
     sess.run(init)
     step = 1
