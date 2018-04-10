@@ -95,7 +95,6 @@ We will treat the MNIST image $$\in \mathcal{R}^{28 \times 28}$$ as $$28$$ seque
 
 {% highlight python linenos %}
 # Lets design our LSTM Model 
-
 # Lets define a lstm cell with tensorflow
 lstm_cell = tf.contrib.rnn.BasicLSTMCell(n_hidden, forget_bias=1.0)
 {% endhighlight %}
