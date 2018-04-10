@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Smart Cards- What makes them so smart?
+title: Guide to EMV 
+subtitle: Contact and Contactless Payments
 tags: [Payments, EMV, Smart Cards]
 ---
 
