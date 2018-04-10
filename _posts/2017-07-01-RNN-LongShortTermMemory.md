@@ -2,6 +2,7 @@
 layout: post
 title: Tensorflow Learning - Part 4
 subtitle: Recurrent Neural Network
+use_math: true
 tags: [Recurrent Neural Network, Deep learning, Python, TensorFlow]
 ---
 
@@ -20,8 +21,7 @@ As seen before, the Long Short-Term Memory is composed of a linear unit surround
 **Building a LSTM with TensorFlow**
 Although RNN is mostly used to model sequences and predict sequential data, we can still classify images using a LSTM network. If we consider every image row as a sequence of pixels, we can feed a LSTM network for classification. Lets use the famous MNIST dataset here. Because MNIST image shape is 28*28px, we will then handle 28 sequences of 28 steps for every sample.
 
-
-```python
+{% highlight python linenos %}
 # Importing Libraries
 %matplotlib inline
 import warnings
@@ -30,14 +30,11 @@ warnings.filterwarnings('ignore')
 import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
-```
 
-
-```python
 # Importing dataset
 from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets(".", one_hot=True)
-```
+{% endhighlight %}
 
     Successfully downloaded train-images-idx3-ubyte.gz 9912422 bytes.
     Extracting .\train-images-idx3-ubyte.gz
@@ -48,9 +45,7 @@ mnist = input_data.read_data_sets(".", one_hot=True)
     Successfully downloaded t10k-labels-idx1-ubyte.gz 4542 bytes.
     Extracting .\t10k-labels-idx1-ubyte.gz
     
-
-
-```python
+{% highlight python linenos %}
 # Defining variables for train & test data
 trainings = mnist.train.images
 trainlabels = mnist.train.labels
@@ -65,16 +60,14 @@ print ("Train Images: ", trainings.shape)
 print ("Train Labels  ", trainlabels.shape)
 print ("Test Images:  " , testings.shape)
 print ("Test Labels:  ", testlabels.shape)
-```
+{% endhighlight %}
 
     Train Images:  (55000, 784)
     Train Labels   (55000, 10)
     Test Images:   (10000, 784)
     Test Labels:   (10000, 10)
-    
 
-
-```python
+{% highlight python linenos %}
 # Defining Network Parameters
 sess = tf.InteractiveSession()
 
@@ -95,14 +88,14 @@ y = tf.placeholder(dtype="float", shape=[None, n_classes], name="y")
 # Randoming initializing weights & biases
 weights = { 'out': tf.Variable(tf.random_normal([n_hidden, n_classes])) }
 biases = {'out': tf.Variable(tf.random_normal([n_classes])) }
-```
+{% endhighlight %}
 
     {'out': <tf.Variable 'Variable_8:0' shape=(128, 10) dtype=float32_ref>}
     
 
 **Let's Understand the parameters, inputs and outputs**
-
-We will treat the MNIST image $\in \mathcal{R}^{28 \times 28}$ as $28$ sequences of a vector $\mathbf{x} \in \mathcal{R}^{28}$. 
+$${\Delta{S}}= S({\mu \Delta{t}}+{\sigma \epsilon \sqrt{\Delta{t}}})$$
+We will treat the MNIST image $$\in \mathcal{R}^{28 \times 28}$$ as $$28$$ sequences of a vector $$\mathbf{x} \in \mathcal{R}^{28}$$. 
 
 **Our simple RNN consists of**  
 1. One input layer which converts a $28*28$ dimensional input to an $128$ dimensional hidden layer, 
