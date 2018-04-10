@@ -279,3 +279,4 @@ with tf.Session() as sess:
     Optimization Finished!
     Testing Accuracy: 0.984375
     
+This is the end of the **Recurrent Neural Networks with TensorFlow learning** notebook. There are multiple application of RNN in Language Modeling and Generating Text, Machine Translation, Speech Recognition, Generating Image Descriptions, etc. Hopefully you now have a better understanding of Recurrent Neural Networks and how to implement one utilizing TensorFlow. Thank you for reading this notebook and in the next blog I shall share image classification using CNN and we will use tensorboard to visualize how to tune the hyperparameters of the network.
