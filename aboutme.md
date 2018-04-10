@@ -19,41 +19,7 @@ subtitle: Cognitive Data Scientist
 
 <table class="tg">
   <tr>
-    <th class="tg-baqh" colspan="2">Some values</th>
-  </tr>
-  <tr>
-    <th class="tg-baqh">Material</th>
-    <th class="tg-baqh">Value</th>
-  </tr>
-  <tr>
-    <td class="tg-baqh">A</td>
-    <td class="tg-baqh">0.75</td>
-  </tr>
-  <tr>
-    <td class="tg-baqh">B</td>
-    <td class="tg-baqh">0.47</td>
-  </tr>
-  <tr>
-    <td class="tg-baqh">C</td>
-    <td class="tg-baqh">0.4 - 0.7</td>
-  </tr>
-  <tr>
-    <td class="tg-baqh">C</td>
-    <td class="tg-baqh">1.0 - 1.8</td>
-  </tr>
-  <tr>
-    <td class="tg-baqh">S</td>
-    <td class="tg-baqh">0.15 - 2.0</td>
-  </tr>
-  <tr>
-    <td class="tg-baqh">W</td>
-    <td class="tg-baqh">0.07 - 0.17</td>
-  </tr>
-</table>
-
-  
-    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="7081afde-08d3-4e1a-be30-200d6c4879e0"></div>
-  <script type="text/javascript">
+    <th class="tg-baqh"><script type="text/javascript">
     (function() {
       var s = document.createElement('script');
       s.type = 'text/javascript';
@@ -62,7 +28,10 @@ subtitle: Cognitive Data Scientist
       var o = document.getElementsByTagName('script')[0];
       o.parentNode.insertBefore(s, o);
       })();
-  </script>
+  </script></th>
+    <th class="tg-baqh">Value</th>
+  </tr>
+</table>
 
 
 If you want to know more, feel free to connect with me on social media! 
