@@ -31,7 +31,43 @@ subtitle: Cognitive Data Scientist
       })();
   </script>
 </th>
-    <th class="tg-baqh">Value</th>
+    <th class="tg-baqh"><div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="09fbfb32-2093-45cc-b831-ee18b762ff46"></div>
+  <script type="text/javascript">
+    (function() {
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = '//cdn.youracclaim.com/assets/utilities/embed.js';
+      var o = document.getElementsByTagName('script')[0];
+      o.parentNode.insertBefore(s, o);
+      })();
+  </script>
+</th>
+    <th class="tg-baqh>  <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="0b8acd87-4825-42d8-8baf-e6baa27d59d4"></div>
+  <script type="text/javascript">
+    (function() {
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = '//cdn.youracclaim.com/assets/utilities/embed.js';
+      var o = document.getElementsByTagName('script')[0];
+      o.parentNode.insertBefore(s, o);
+      })();
+  </script>
+</th>
+     <th class="tg-baqh>    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="43d1baaa-7397-47ad-bb52-7bfc3ec351aa"></div>
+  <script type="text/javascript">
+    (function() {
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = '//cdn.youracclaim.com/assets/utilities/embed.js';
+      var o = document.getElementsByTagName('script')[0];
+      o.parentNode.insertBefore(s, o);
+      })();
+  </script>
+
+</th>                           
   </tr>
 </table>
 
