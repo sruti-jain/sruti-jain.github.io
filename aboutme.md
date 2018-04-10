@@ -19,7 +19,8 @@ subtitle: Cognitive Data Scientist
 
 <table class="tg">
   <tr>
-    <th class="tg-baqh"><script type="text/javascript">
+    <th class="tg-baqh"><div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="7081afde-08d3-4e1a-be30-200d6c4879e0"></div>
+  <script type="text/javascript">
     (function() {
       var s = document.createElement('script');
       s.type = 'text/javascript';
@@ -28,7 +29,8 @@ subtitle: Cognitive Data Scientist
       var o = document.getElementsByTagName('script')[0];
       o.parentNode.insertBefore(s, o);
       })();
-  </script></th>
+  </script>
+</th>
     <th class="tg-baqh">Value</th>
   </tr>
 </table>
