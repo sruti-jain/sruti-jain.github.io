@@ -35,15 +35,6 @@ import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets(".", one_hot=True)
 {% endhighlight %}
-
-    Successfully downloaded train-images-idx3-ubyte.gz 9912422 bytes.
-    Extracting .\train-images-idx3-ubyte.gz
-    Successfully downloaded train-labels-idx1-ubyte.gz 28881 bytes.
-    Extracting .\train-labels-idx1-ubyte.gz
-    Successfully downloaded t10k-images-idx3-ubyte.gz 1648877 bytes.
-    Extracting .\t10k-images-idx3-ubyte.gz
-    Successfully downloaded t10k-labels-idx1-ubyte.gz 4542 bytes.
-    Extracting .\t10k-labels-idx1-ubyte.gz
     
 {% highlight python linenos %}
 # Defining variables for train & test data
@@ -102,56 +93,54 @@ We will treat the MNIST image $$\in \mathcal{R}^{28 \times 28}$$ as $$28$$ seque
 2. One intermediate recurrent neural network (LSTM) 
 3. One output layer which converts an $128$ dimensional output of the LSTM to $10$ dimensional output indicating a class label. 
 
-
-```python
+{% highlight python linenos %}
 # Lets design our LSTM Model 
 
 # Lets define a lstm cell with tensorflow
 lstm_cell = tf.contrib.rnn.BasicLSTMCell(n_hidden, forget_bias=1.0)
-```
+{% endhighlight %}
 
-![image.png](attachment:image.png)
+![png](/img/RNN2.png)
 
 
-```python
+{% highlight python linenos %}
 # __dynamic_rnn__ creates a recurrent neural network specified from __lstm_cell__:
 outputs, states = tf.nn.dynamic_rnn(lstm_cell, inputs=x, dtype=tf.float32)
 print(outputs)
-```
+{% endhighlight %}
 
     Tensor("rnn_3/transpose:0", shape=(?, 28, 128), dtype=float32)
     
 
-**The output of the rnn would be a [100x28x128] matrix. we use the linear activation to map it to a [?x10 matrix]**
+The output of the rnn would be a [100x28x128] matrix. we use the linear activation to map it to a [?x10 matrix]
 
 
-```python
+{% highlight python linenos %}
 output = tf.reshape(tf.split(outputs, 28, axis=1, num=None, name='split')[-1],[-1,128])
 print(output)
 pred = tf.matmul(output, weights['out']) + biases['out']
-```
+{% endhighlight %}
 
     Tensor("Reshape_1:0", shape=(?, 128), dtype=float32)
     
 
-
-```python
+{% highlight python linenos %}
 # Now, we define the cost function and optimizer:
 
 cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels=y, logits=pred ))
 optimizer = tf.train.AdamOptimizer(learning_rate=learning_rate).minimize(cost)
-```
+{% endhighlight %}
 
 
-```python
+{% highlight python linenos %}
 # Here we define the accuracy and evaluation methods to be used in the learning process:
 
 correct_pred = tf.equal(tf.argmax(pred,1), tf.argmax(y,1))
 accuracy = tf.reduce_mean(tf.cast(correct_pred, tf.float32))
-```
+{% endhighlight %}
 
 
-```python
+{% highlight python linenos %}
 # Running the tensorflow graph
 
 init = tf.global_variables_initializer()
@@ -190,7 +179,7 @@ with tf.Session() as sess:
     test_label = mnist.test.labels[:test_len]
     print("Testing Accuracy:", \
         sess.run(accuracy, feed_dict={x: test_data, y: test_label}))
-```
+{% endhighlight %}
 
     Iter 1000, Minibatch Loss= 1.933472, Training Accuracy= 0.37000
     Iter 2000, Minibatch Loss= 1.606309, Training Accuracy= 0.43000
