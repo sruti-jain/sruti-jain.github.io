@@ -19,7 +19,7 @@ subtitle: Cognitive Data Scientist
 
 <table class="tg">
    <tr>
-    <tc class="tg-7fle">  <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="09fbfb32-2093-45cc-b831-ee18b762ff46"></div>
+    <tc class="tg-7fle">  <div data-iframe-width="165" data-iframe-height="270" data-share-badge-id="09fbfb32-2093-45cc-b831-ee18b762ff46"></div>
   <script type="text/javascript">
     (function() {
       var s = document.createElement('script');
@@ -31,7 +31,7 @@ subtitle: Cognitive Data Scientist
       })();
   </script>
 </tc>
-    <tc class="tg-7fle"><div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="7081afde-08d3-4e1a-be30-200d6c4879e0"></div>
+    <tc class="tg-7fle"><div data-iframe-width="165" data-iframe-height="270" data-share-badge-id="7081afde-08d3-4e1a-be30-200d6c4879e0"></div>
   <script type="text/javascript">
     (function() {
       var s = document.createElement('script');
@@ -44,7 +44,7 @@ subtitle: Cognitive Data Scientist
   </script>
 </tc>
 
-    <tc class="tg-7fle"> <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="0b8acd87-4825-42d8-8baf-e6baa27d59d4"></div>
+    <tc class="tg-7fle"> <div data-iframe-width="165" data-iframe-height="270" data-share-badge-id="0b8acd87-4825-42d8-8baf-e6baa27d59d4"></div>
   <script type="text/javascript">
     (function() {
       var s = document.createElement('script');
@@ -57,7 +57,7 @@ subtitle: Cognitive Data Scientist
   </script>
 </tc>
   
-    <tc class="tg-7fle">  <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="43d1baaa-7397-47ad-bb52-7bfc3ec351aa"></div>
+    <tc class="tg-7fle">  <div data-iframe-width="165" data-iframe-height="270" data-share-badge-id="43d1baaa-7397-47ad-bb52-7bfc3ec351aa"></div>
   <script type="text/javascript">
     (function() {
       var s = document.createElement('script');
