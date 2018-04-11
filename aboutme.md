@@ -19,7 +19,7 @@ subtitle: Cognitive Data Scientist
 
 <table class="tg">
   <tr>
-    <th class="tg-7fle"><div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="7081afde-08d3-4e1a-be30-200d6c4879e0"></div>
+    <tc class="tg-7fle"><div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="7081afde-08d3-4e1a-be30-200d6c4879e0"></div>
   <script type="text/javascript">
     (function() {
       var s = document.createElement('script');
@@ -30,8 +30,8 @@ subtitle: Cognitive Data Scientist
       o.parentNode.insertBefore(s, o);
       })();
   </script>
-</th>
-    <th class="tg-7fle"><div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="09fbfb32-2093-45cc-b831-ee18b762ff46"></div>
+</tc>
+    <tc class="tg-7fle"><div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="09fbfb32-2093-45cc-b831-ee18b762ff46"></div>
   <script type="text/javascript">
     (function() {
       var s = document.createElement('script');
@@ -41,9 +41,9 @@ subtitle: Cognitive Data Scientist
       var o = document.getElementsByTagName('script')[0];
       o.parentNode.insertBefore(s, o);
       })();
-  </script></th>
+  </script></tc>
 
-    <th class="tg-7fle"><div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="09fbfb32-2093-45cc-b831-ee18b762ff46"></div>
+    <tc class="tg-7fle"><div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="09fbfb32-2093-45cc-b831-ee18b762ff46"></div>
   <script type="text/javascript">
     (function() {
       var s = document.createElement('script');
@@ -53,9 +53,9 @@ subtitle: Cognitive Data Scientist
       var o = document.getElementsByTagName('script')[0];
       o.parentNode.insertBefore(s, o);
       })();
-  </script></th>
+  </script></tc>
   
-    <th class="tg-7fle"><div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="09fbfb32-2093-45cc-b831-ee18b762ff46"></div>
+    <tc class="tg-7fle"><div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="09fbfb32-2093-45cc-b831-ee18b762ff46"></div>
   <script type="text/javascript">
     (function() {
       var s = document.createElement('script');
@@ -65,7 +65,7 @@ subtitle: Cognitive Data Scientist
       var o = document.getElementsByTagName('script')[0];
       o.parentNode.insertBefore(s, o);
       })();
-  </script></th>
+  </script></tc>
                           
   </tr>
 </table>
