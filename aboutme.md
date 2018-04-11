@@ -18,12 +18,6 @@ subtitle: Cognitive Data Scientist
 <p><b>Badges</b><p>
 
 <table class="tg">
-  <tr>
-    <th class="tg-7fle">Data Science for Business</th>
-    <th class="tg-7fle">Applied Data Science with Python</th>
-    <th class="tg-7fle">Deep Learning</th>
-    <th class="tg-7fle">Python for Data Science</th>
-    </tr>
    <tr>
     <tc class="tg-7fle">  <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="09fbfb32-2093-45cc-b831-ee18b762ff46"></div>
   <script type="text/javascript">
