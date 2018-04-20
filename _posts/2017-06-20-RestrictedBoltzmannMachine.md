@@ -4,6 +4,7 @@ title: TensorFlow Learning - Part 3
 subtitle: Restricted Boltzmann Machine
 tags: [TensorFlow, Python, Machine learning, Neural Network, Restricted Boltzmann Machine]
 use_math: true
+share: linkedin
 ---
 
 **Restricted Boltzmann Machine (RBM):** are shallow neural nets that learn to reconstruct data by themselves in an unsupervised fashion.  
