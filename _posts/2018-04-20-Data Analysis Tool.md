@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ExploData: Data Exploration and Analysis Tool
+title: ExploData - Data Exploration and Analysis Tool
 subtitle: using Shiny & R
 tags: [Statistical Modeling, Data Exploration, Classification, Clustering, R, Shiny, Data Analysis, App Development]
 ---
