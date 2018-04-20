@@ -14,11 +14,11 @@ I have designed and developed a tool can be used for standard data exploration a
 4. Highly interactive and flexible tool with results presented in simplified formats.
 5. Techniques implemented includes: Regression, Paired T Test, One-Way ANOVA, MANOVA, K-means, Expectation Maximization (EM) Clustering, Spectral & DBSCAN Clustering, * Decision Tree, K-Nearest Neighbors, Random Forest, Naive Bayes Classifier, Support Vector Machine, Feed-Forward Neural Network. 
 
-**Live Demo**: https://srutijain.shinyapps.io/explodata/
+[**Live Demo**](https://srutijain.shinyapps.io/explodata/)
 
 ## Future implementation : 
 
 Adding support for regression problems. Implementing & supporting PCA, MCA, CA, BADA, MFA, STATIS techniques. 
 
 ## Tool Suggestions: 
-If you have any suggestions or advices for the tool, please write me to http://srutisj.in/contact/
+If you have any suggestions or advices for the tool, please write me to (http://srutisj.in/contact/)
