@@ -21,4 +21,4 @@ I have designed and developed a tool can be used for standard data exploration a
 Adding support for regression problems. Implementing & supporting PCA, MCA, CA, BADA, MFA, STATIS techniques. 
 
 ## Tool Suggestions: 
-If you have any suggestions or advices for the tool, please write me to (http://srutisj.in/contact/)
+If you have any suggestions or advices for the tool, please [contact me](http://srutisj.in/contact/)
