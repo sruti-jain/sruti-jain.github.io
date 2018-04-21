@@ -1,10 +1,10 @@
 ---
 layout: page
 title: ""
-subtitle: Resume
 comments: true
 carbonads: true
 ---
+## Resume
 
 ### Education
 
