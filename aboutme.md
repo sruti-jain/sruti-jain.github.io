@@ -1,8 +1,9 @@
 ---
 layout: page
 title:  ""
-subtitle: Cognitive Data Scientist
 ---
+
+## Cognitive Data Scientist
 
 <div style="text-align: justify"> 
 <p> I am a resolute and fervent professional with strong analytical and problem solving skills as exemplified by my work experience and education. Currently I am a Graduate Research Assistant pursuing Master's in Cognitive Science at University of Texas at Dallas specializing in Computational Modeling & Data Science and I am currently seeking an full-time opportunity. I am open to any industry and glad to relocate at any corner of the world. I love to be with challenges and to enjoy the accomplishments. </p>
