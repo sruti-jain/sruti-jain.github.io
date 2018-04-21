@@ -19,17 +19,17 @@ I have designed and developed a tool can be used for standard data exploration a
 ## Results of IRIS Dataset using the tool: 
 Step 1: Exploraing the Dataset for both qualitative and quantitative data and looking at the correlation of various variables within the dataset.
 
-![png](/img/Tool2.png)
+![png](/img/Tool2.PNG)
 Step 2: Let us visually look at the distribution of each variable within the dataset and visualize the correlation of all variables with one another. It is an important step in data exploration to determine if there is any abnormalities within the data. 
 
-![png](/img/Tool1.png)
+![png](/img/Tool1.PNG)
 Step 3: Let us experiment first clustering techniques on the given dataset. We have four option: K-means, Expectation Maximization (EM) Clustering, Spectral & DBSCAN Clustering. I have selected K-means for experiment purpose and below are the results of the algorithm. The results are also plotted to help the users understand the internal flow of the algorithm and to identify the importance of each variable in the analysis
 
-![png](/img/Tool3.png)
-![png](/img/Tool4.png)
+![png](/img/Tool3.PNG)
+![png](/img/Tool4.PNG)
 Step 4: Finally, we also wish to predict the class of each flower. We have six classification algorithm choice to determine the best one. Each algorithm can be compared against the other for various performace metrics ranging from accuracy, sensitivity, specificity, Precision, Recall, F1 Score. The results can also be viewed visually for better understanding of the performence of each algorithm on the dataset. 
 
-![png](/img/Tool5.png)
+![png](/img/Tool5.PNG)
 
 ## Future implementation : 
 
