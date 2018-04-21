@@ -7,14 +7,14 @@ tags: [Statistical Modeling, Data Exploration, Classification, Clustering, R, Sh
 
 I have designed and developed a tool can be used for standard data exploration and analysis. You can experiment either with the existing standard data or upload a datafile of your own. The data is preprocessed internally and can be explored using the standards plots provided by the tool. You can run predictive and prescriptive analysis depending on your hypothesis by running various **Statistical Test**, **Clustering** or **Classification** techniques. 
 
+[**Live Demo**](https://srutijain.shinyapps.io/explodata/)
+
 ## Features of the Tool:
-1. It is build using Shiny web development framework for **R**.
+1. It is build using Shiny web development framework for R.
 2. Provision for uploading own data.
 3. Pre-processing included and requires no coding or statistical background for data analysis. 
 4. Highly interactive and flexible tool with results presented in simplified formats.
-5. Techniques implemented includes: Regression, Paired T Test, One-Way ANOVA, MANOVA, K-means, Expectation Maximization (EM) Clustering, Spectral & DBSCAN Clustering, * Decision Tree, K-Nearest Neighbors, Random Forest, Naive Bayes Classifier, Support Vector Machine, Feed-Forward Neural Network. 
-
-[**Live Demo**](https://srutijain.shinyapps.io/explodata/)
+5. Techniques implemented includes: Regression, Paired T Test, One-Way ANOVA, MANOVA, K-means, Expectation Maximization (EM) Clustering, Spectral & DBSCAN Clustering, Decision Tree, K-Nearest Neighbors, Random Forest, Naive Bayes Classifier, Support Vector Machine, Feed-Forward Neural Network. 
 
 ## Future implementation : 
 
