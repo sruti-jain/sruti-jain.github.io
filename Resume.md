@@ -9,8 +9,8 @@ carbonads: true
 
 #### <span class="fa fa-graduation-cap about-icon"></span>  University of Texas at Dallas 
 
-Master of Science in Applied Cognition & Neuroscience, GPA 3.93/4.0   
-**Specialization**: Data Science/Computational Modeling, Anticipated May 2018
+Master of Science in Applied Cognition & Neuroscience, GPA 3.94/4.0   
+**Specialization**: Data Science/Computational Modeling, May 2018
 
 #### <span class="fa fa-graduation-cap about-icon"></span>  Shreemati Nathibai Damodar Thackersey Women's University, India 
 
@@ -52,7 +52,6 @@ Bachelor of Technology in Electronics & Communication Engineering, GPA 3.80/4.0
 #### <span class="fa fa-briefcase about-icon"></span>  Accenture - Software Engineering Analyst          (Bengaluru, India)   Mar 2013 - July 2016
 - Worked in cross-functional teams including strategic planning & analysis, new business development, testing, and status reporting.
 - Optimized data collection procedures and conducted data exploration, quantitative research and data mining to uncover financial crime patterns.
-- Implemented machine learning models to identify the risk of payment transactions thereby improving the F1 Score from 0.62 to 0.94 for predicting fraudulent transactions.  
 - Created visually impactful dashboards in Tableau for data reporting. Extracted, interpreted and analyzed data to identify key metrics and transformed raw data into meaningful, actionable information for reporting.  
 - Used SQL to extract and sort data from the transaction database to create control groups for statistical analysis and modeling of the tokenized and EMV transactions for ROI patterns after product deployment.  
 - Collaborated with cross-functional teams (Visa, Mastercard) to compile and validate data; reinforce and maintain PCI compliance standards. 
