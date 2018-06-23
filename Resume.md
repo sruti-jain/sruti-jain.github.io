@@ -22,8 +22,8 @@ Bachelor of Technology in Electronics & Communication Engineering, GPA 3.80/4.0
 ### Technical Skills & Certifications
 
 - **Languages:** 
-  - *Advanced:* Python, SQL, HTML, CSS, JavaScript, D3.js, Matlab 
-  - *Intermediate:* R, SAS, C, C++, VBA
+  - *Advanced:* Python, R, SQL, HTML, CSS, JavaScript, D3.js, Matlab 
+  - *Intermediate:* SAS, C, C++, VBA
 - **Databases:** Oracle 11g, SQLite3, MySQL, MongoDB                           
 - **Software Management:** JIRA, HP ALM, IBM ClearCase & ClearQuest, Microsoft Office  
 - **Data Analysis Tools:** Advanced MS-Excel, SPSS, Tableau, Google Analytics  
@@ -35,15 +35,16 @@ Bachelor of Technology in Electronics & Communication Engineering, GPA 3.80/4.0
 
 ### Experience
 
+#### <span class="fa fa-briefcase about-icon"></span>  UL - Technical Analyst          (Atlanta, GE)   June 2018 - Present
 
-#### <span class="fa fa-briefcase about-icon"></span>  University of Texas at Dallas - Graduate Research Assistant          (Dallas, TX)   Oct 2017 - Present
+#### <span class="fa fa-briefcase about-icon"></span>  University of Texas at Dallas - Graduate Research Assistant          (Dallas, TX)   Oct 2017 - May 2018
 - Working on a project sponsored by DARPA to develop a Data Science tool (Data Driven discovery of models) to automate model discovery process for quantitative analysis mainly using d3.js, R, Python.
 - Research, design & development of DARPA funded project TwoRavens, (http://2ra.vn), a system of interlocking statistical tools for data exploration, analysis and meta-analysis, under the supervision of Dr. Vito D'Orazio (Prof. at the University of Texas at Dallas).  
 - Used R and Python to apply several machine learning algorithms (Clustering, Regression, Time Series & Classification) on the data to be represented to the user.  
 - Developed the front-end UI using JavaScript, D3.js, jQuery, JSON, Mithril. 
 
 
-#### <span class="fa fa-briefcase about-icon"></span>  University of Texas at Dallas - Graduate Intern          (Dallas, TX)   Jan 2018 - Present
+#### <span class="fa fa-briefcase about-icon"></span>  University of Texas at Dallas - Graduate Intern          (Dallas, TX)   Jan 2018 - May 2018
 - Working on a project funded by NSF for enhancing the student experience in Online Learning systems through educational data mining & learning analytics under the guidance of Dr. Richard Golden.
 - Responsible for designing useful surveys & formulating hypothesis.  
 - Design & evaluate hypothesis, preprocess data and variable selection, handling exceptions & assumption, develop models using machine learning in Python & Tensorflow.  
